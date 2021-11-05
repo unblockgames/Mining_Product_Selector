@@ -1,0 +1,59 @@
+<div id="input">
+    <form action="/calc">
+        <h1>Prefill form with a known miner</h1>
+        <ul>
+            <li>Antminer S19</li>
+            <li>Antminer S17</li>
+            <li>Antminer S9</li>
+            <li>Antminer L7</li>
+            <li>Antminer L3</li>
+        </ul>
+        <div>
+            <label for="minerQty">How Many Miners?</label>
+            <input type="text" name="minerQty" id="minerQty">
+        </div>
+        <div>
+            <label for="minerWatts">Miner Watts</label>
+            <input type="text" name="minerWatts" id="minerWatts">
+        </div>
+        <div>
+            <label for="minerPlugs"># of Plugs on the Miner</label>
+            <input type="text" name="minerPlugQty" id="minerPlugQty">
+        </div>
+        <div>
+            <span>Miner Plug Type</span>
+            <input type="radio" name="minerPlugType" id="minerPlugTypeChoice1" value="C13">
+            <label for="minerPlugTypeChoice1">C13</label>
+            <input type="radio" name="minerPlugType" id="minerPlugTypeChoice2" value="C19">
+            <label for="minerPlugTypeChoice2">C19</label>
+        </div>
+        <div>
+            <span>Service Voltage</span>
+            <input type="radio" name="serviceVoltage" id="serviceVoltageChoice1" value="415">
+            <label for="serviceVoltageChoice1">5000+ Volts</label>
+            <input type="radio" name="serviceVoltage" id="serviceVoltageChoice2" value="480">
+            <label for="serviceVoltageChoice2">480 Volts</label>
+            <input type="radio" name="serviceVoltage" id="serviceVoltageChoice3" value="415">
+            <label for="serviceVoltageChoice3">415 Volts</label>
+            <input type="radio" name="serviceVoltage" id="serviceVoltageChoice4" value="240">
+            <label for="serviceVoltageChoice4">240 Volts</label>
+            <input type="radio" name="serviceVoltage" id="serviceVoltageChoice5" value="208">
+            <label for="serviceVoltageChoice5">208 Volts</label>
+            <input type="radio" name="serviceVoltage" id="serviceVoltageChoice6" value="120">
+            <label for="serviceVoltageChoice6">120 Volts</label>
+        </div>
+        <div>
+            <span for="">Service Phase</span>
+            <input type="radio" name="servicePhase" id="servicePhaseChoice1" value="1">
+            <label for="servicePhaseChoice1">Single Phase</label>
+            <input type="radio" name="servicePhase" id="servicePhaseChoice2" value="3">
+            <label for="servicePhaseChoice2">Three Phase</label>
+        </div>
+        <div>
+            <label for="">Service Amps Available (leave blank if unknown)</label>
+            <input type="text" name="serviceAmpsAvailable" id="serviceAmpsAvailable">
+        </div>
+        <button type="submit">Calculate</button>
+    </form>
+</div>
+<div id="output">{{data}}</div>
