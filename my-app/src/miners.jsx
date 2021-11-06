@@ -62,7 +62,7 @@ const miners = [
   },
 
   {
-    name: "AntMiner S19/S19 Pro",
+    name: "AntMiner S19/S19 Pro/S19j/S19k",
     plugType: "C13",
     plugQty: "2",
     minerWatts: "3200",
@@ -83,7 +83,7 @@ const miners = [
   },
 
   {
-    name: "AntMiner S9i/S19j/S19k",
+    name: "AntMiner S9i",
     plugType: "C13",
     plugQty: "1",
     minerWatts: "1340",

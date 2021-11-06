@@ -5,9 +5,11 @@ const pdus = [
     maxAmps: 30,
     plugQty: 4,
     cost: 99.45,
-    shopifyId: 3675666350155,
+    shopifyId: 39531795349579,
+    specSheetUrl:
+      "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/30A_240V_PDU_4x_C13_Product_Sheet.pdf?v=1636144983",
     image:
-    "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/PUL6-233040_250px.png?v=1636057887",
+      "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/PUL6-233040_250px.png?v=1636057887",
   },
   {
     name: "30A_240V_PDU_C19",
@@ -15,9 +17,11 @@ const pdus = [
     maxAmps: 30,
     plugQty: 2,
     cost: 99.45,
-    shopifyId: 6591826460747,
+    shopifyId: 39531799740491,
+    specSheetUrl:
+      "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/30A_240V_PDU_2x_C19_Product_Sheet.pdf?v=1636197232",
     image:
-    "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/PUL6-239020_250px.png?v=1636057888",
+      "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/PUL6-239020_250px.png?v=1636057888",
   },
   {
     name: "50A_240V_PDU_C13",
@@ -25,9 +29,11 @@ const pdus = [
     maxAmps: 50,
     plugQty: 8,
     cost: 174.5,
-    shopifyId: 3675671330891,
+    shopifyId: 39500973637707,
+    specSheetUrl:
+      "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/50A_240V_PDU_8x_C13_Product_Sheet.pdf?v=1636197494",
     image:
-    "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/PU06-253080_250px.png?v=1636057888",
+      "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/PU06-253080_250px.png?v=1636057888",
   },
   {
     name: "50A_240V_PDU_C19",
@@ -35,7 +41,9 @@ const pdus = [
     maxAmps: 50,
     plugQty: 4,
     cost: 174.5,
-    shopifyId: 6608428892235,
+    shopifyId: 39500972228683,
+    specSheetUrl:
+      "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/50A_240V_PDU_4x_C19_Product_Sheet.pdf?v=1636197746",
     image:
       "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/PU06-259040_250px.png?v=1636058518",
   },

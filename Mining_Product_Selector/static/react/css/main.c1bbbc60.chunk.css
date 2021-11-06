@@ -1,2 +1,0 @@
-body{background:linear-gradient(90deg,#3687da,#151e3a)}#calculator{background-color:#fff}.product{cursor:pointer}.product:hover{background-color:orange}@media screen and (max-width:775px){#step3row1{flex-direction:column}#r1c1,#step3row1{width:250px;padding:20px}#r1c1,#r1c1 div,#r1c3,#step3row1,h3{align-self:center}#r1c2{flex-direction:row;justify-content:space-around}#r1c2 hr{height:1px;width:25%}}@media screen and (min-width:775px){hr{height:100px!important;width:1px!important}}
-/*# sourceMappingURL=main.c1bbbc60.chunk.css.map */

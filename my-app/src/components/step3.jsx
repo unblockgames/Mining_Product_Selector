@@ -15,6 +15,13 @@ import {
 import { getPanel } from "../panels";
 import react from "react";
 import { getPdus } from "../pdus";
+import { log } from "./calculator";
+
+const handleAddToCart = (id, qty) => {
+  const urlBase =
+    "https://asic-mining-panels.myshopify.com/cart/" + id + ":" + qty;
+  window.open(urlBase, "_blank").focus();
+};
 
 const Step3 = (props) => {
   let panelsToDisplay = [];
@@ -77,8 +84,8 @@ const Step3 = (props) => {
           {pdusToDisplay.map((pdu) => (
             <Card
               className="product"
-              height="medium"
               width="250px"
+              height="450px"
               onClick={() => console.log("Clicked!")}
             >
               <CardHeader justify="end">
@@ -138,14 +145,39 @@ const Step3 = (props) => {
                   )}
                 </Grid>
               </CardBody>
-              <CardFooter><Button size="small">Download Spec Sheet</Button><Button size="small"></Button></CardFooter>
+              <CardFooter
+                direction="row"
+                justify="evenly"
+                height="100px"
+                gap="none"
+              >
+                <button
+                  type="button"
+                  className="btn btn-primary"
+                  style={{ width: "45%" }}
+                  onClick={() =>
+                    handleAddToCart(pdu.shopifyId, props.numberOfPdus[pdu.name])
+                  }
+                >
+                  Buy
+                </button>
+                <button
+                  onClick={() => {
+                    window.open(pdu.specSheetUrl, "_blank").focus();
+                  }}
+                  className="btn btn-secondary"
+                  style={{ width: "45%" }}
+                >
+                  Specs
+                </button>
+              </CardFooter>
             </Card>
           ))}
           {panelsToDisplay.map((panel) => (
             <Card
               className="product"
-              height="medium"
               width="250px"
+              height="450px"
               onClick={() => console.log("Clicked!")}
             >
               <CardHeader justify="end">
@@ -206,6 +238,29 @@ const Step3 = (props) => {
                   )}
                 </Grid>
               </CardBody>
+              <CardFooter
+                direction="row"
+                justify="evenly"
+                height="100px"
+                gap="none"
+              >
+                <button
+                  type="button"
+                  className="btn btn-primary"
+                  style={{ width: "45%" }}
+                  onClick={() =>
+                    handleAddToCart(
+                      panel.shopifyId,
+                      props.numberOfPanels[panel.name]
+                    )
+                  }
+                >
+                  Buy
+                </button>
+                <button className="btn btn-secondary" style={{ width: "45%" }}>
+                  Specs
+                </button>
+              </CardFooter>
             </Card>
           ))}
         </Grid>

@@ -20,9 +20,9 @@ const panels = [
       },
     ],
     cost: 544.95,
-    shopifyId: 3675624243275,
+    shopifyId: 28597116960843,
     image:
-    "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/AS02-253120_250px.png?v=1636063168",
+      "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/AS02-253120_250px.png?v=1636063168",
   },
   {
     name: "50KW_240V_ASIC_Mining_Panel",
@@ -43,7 +43,7 @@ const panels = [
       },
     ],
     cost: 1894.95,
-    shopifyId: 3675624243275,
+    shopifyId: 28597452505163,
     image:
       "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/AS05-3532A0_250px.png?v=1636063394",
   },
@@ -66,6 +66,7 @@ const panels = [
       },
     ],
     cost: 4195.45,
+    shopifyId: 28597459845195,
     image:
       "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/50KW_Industrial_ASIC_Mining_Panel_40X240V_Output_Compressed.png?v=1613718491",
   },
@@ -88,6 +89,7 @@ const panels = [
       },
     ],
     cost: 3444.95,
+    shopifyId: 28597477343307,
     image:
       "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/AS10-353540_250px.png?v=1636062298",
   },
@@ -110,6 +112,7 @@ const panels = [
       },
     ],
     cost: 7795,
+    shopifyId: 28597500903499,
     image:
       "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/50KW_Industrial_ASIC_Mining_Panel_40X240V_Output_Compressed.png?v=1613718491",
   },
@@ -132,6 +135,7 @@ const panels = [
       },
     ],
     cost: 3295.0,
+    shopifyId: 39419804516427,
     image:
       "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/100KW_240V_ASIC_Mining_Panel.png?v=1635193317",
   },

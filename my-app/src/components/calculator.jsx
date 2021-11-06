@@ -46,6 +46,10 @@ class Calculator extends React.Component {
     minerWatts: Joi.number().integer().required().label("Miner Watts"),
   });
 
+  log = () => {
+
+  }
+
   handleChange = async (e) => {
     let state = { ...this.state };
     state[e.target.name] = e.target.value;

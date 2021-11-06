@@ -4,12 +4,12 @@ body {
 #calculator {
     background-color: white;
 }
-.product {
+/* .product {
     cursor: pointer;
 }
 .product:hover {
     background-color: orange;
-}
+} */
 @media screen and (max-width: 775px) {
     #step3row1 {
         flex-direction: column;
