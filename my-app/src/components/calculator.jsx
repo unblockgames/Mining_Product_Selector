@@ -47,8 +47,11 @@ class Calculator extends React.Component {
   });
 
   log = () => {
-
-  }
+    var xhttp = new XMLHttpRequest();
+    xhttp.open("POST", "http://localhost:5000/log");
+    xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    xhttp.send("data=" + JSON.stringify(this.state));
+  };
 
   handleChange = async (e) => {
     let state = { ...this.state };
@@ -364,6 +367,7 @@ class Calculator extends React.Component {
               numberOfMinersPerPdu={numberOfMinersPerPdu}
               numberOfMinersPerPanel={numberOfMinersPerPanel}
               plugType={plugType}
+              log={this.log}
             />
           )}
         </Box>

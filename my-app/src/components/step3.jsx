@@ -1,7 +1,6 @@
 import React from "react";
 import {
   Box,
-  Button,
   Card,
   CardBody,
   CardHeader,
@@ -15,7 +14,6 @@ import {
 import { getPanel } from "../panels";
 import react from "react";
 import { getPdus } from "../pdus";
-import { log } from "./calculator";
 
 const handleAddToCart = (id, qty) => {
   const urlBase =
@@ -24,6 +22,7 @@ const handleAddToCart = (id, qty) => {
 };
 
 const Step3 = (props) => {
+  props.log();
   let panelsToDisplay = [];
   let pdusToDisplay = getPdus().filter((p) => p.name.includes(props.plugType));
   for (const panel in props.numberOfPanels) {
