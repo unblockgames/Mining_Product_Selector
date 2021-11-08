@@ -2,7 +2,6 @@ from flask import render_template, request
 from Mining_Product_Selector import app
 import mysql.connector
 import json
-import os
 
 
 @app.route('/')
