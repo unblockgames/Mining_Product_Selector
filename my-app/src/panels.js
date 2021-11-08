@@ -23,6 +23,8 @@ const panels = [
     shopifyId: 28597116960843,
     image:
       "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/AS02-253120_250px.png?v=1636063168",
+    specSheetUrl:
+      "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/20KW_240V_ASIC_Mining_Panel_Product_Sheet.pdf?v=1636412871",
   },
   {
     name: "50KW_240V_ASIC_Mining_Panel",
@@ -46,6 +48,8 @@ const panels = [
     shopifyId: 28597452505163,
     image:
       "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/AS05-3532A0_250px.png?v=1636063394",
+    specSheetUrl:
+      "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/50KW_240V_ASIC_Mining_Panel_Product_Sheet.pdf?v=1636412857",
   },
   {
     name: "50KW_480V_ASIC_Mining_Panel",
@@ -69,6 +73,8 @@ const panels = [
     shopifyId: 28597459845195,
     image:
       "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/50KW_Industrial_ASIC_Mining_Panel_40X240V_Output_Compressed.png?v=1613718491",
+    specSheetUrl:
+      "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/50KW_480V_ASIC_Mining_Panels_Product_Sheet.pdf?v=1636412845",
   },
   {
     name: "100KW_240V_ASIC_Mining_Panel",
@@ -92,6 +98,8 @@ const panels = [
     shopifyId: 28597477343307,
     image:
       "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/AS10-353540_250px.png?v=1636062298",
+    specSheetUrl:
+      "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/100KW_240V_ASIC_Mining_Panel_Product_Sheet.pdf?v=1636412761",
   },
   {
     name: "100KW_480V_ASIC_Mining_Panel",
@@ -115,6 +123,8 @@ const panels = [
     shopifyId: 28597500903499,
     image:
       "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/50KW_Industrial_ASIC_Mining_Panel_40X240V_Output_Compressed.png?v=1613718491",
+    specSheetUrl:
+      "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/100KW_480V_ASIC_Mining_Panels_Product_Sheet.pdf?v=1636413454",
   },
   {
     name: "100KW_415V_ASIC_Mining_Panel",
@@ -138,6 +148,8 @@ const panels = [
     shopifyId: 39419804516427,
     image:
       "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/100KW_240V_ASIC_Mining_Panel.png?v=1635193317",
+    specSheetUrl:
+      "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/125KW_415V_ASIC_Mining_Panel_84x_C13.pdf?v=1636413971",
   },
 ];
 
