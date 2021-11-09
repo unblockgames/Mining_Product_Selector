@@ -609,3 +609,143 @@
 [Tue Nov 09 00:05:48.770030 2021] [wsgi:error] [pid 1916:tid 139974272882432] [remote 108.162.238.94:46886]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 3, in <module>
 [Tue Nov 09 00:05:48.770035 2021] [wsgi:error] [pid 1916:tid 139974272882432] [remote 108.162.238.94:46886]     import mysql.connector
 [Tue Nov 09 00:05:48.770051 2021] [wsgi:error] [pid 1916:tid 139974272882432] [remote 108.162.238.94:46886] ModuleNotFoundError: No module named 'mysql'
+[Tue Nov 09 17:02:18.183991 2021] [wsgi:error] [pid 12223:tid 139890774509312] [remote 172.70.178.193:30168] [2021-11-09 17:02:18,181] ERROR in app: Exception on /log [POST]
+[Tue Nov 09 17:02:18.185029 2021] [wsgi:error] [pid 12223:tid 139890774509312] [remote 172.70.178.193:30168] Traceback (most recent call last):
+[Tue Nov 09 17:02:18.185039 2021] [wsgi:error] [pid 12223:tid 139890774509312] [remote 172.70.178.193:30168]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 17, in log
+[Tue Nov 09 17:02:18.185044 2021] [wsgi:error] [pid 12223:tid 139890774509312] [remote 172.70.178.193:30168]     with open('Mining_Product_Selector/config.json', 'r') as f:
+[Tue Nov 09 17:02:18.185048 2021] [wsgi:error] [pid 12223:tid 139890774509312] [remote 172.70.178.193:30168] FileNotFoundError: [Errno 2] No such file or directory: 'Mining_Product_Selector/config.json'
+[Tue Nov 09 17:02:18.185053 2021] [wsgi:error] [pid 12223:tid 139890774509312] [remote 172.70.178.193:30168] 
+[Tue Nov 09 17:02:18.185057 2021] [wsgi:error] [pid 12223:tid 139890774509312] [remote 172.70.178.193:30168] During handling of the above exception, another exception occurred:
+[Tue Nov 09 17:02:18.185061 2021] [wsgi:error] [pid 12223:tid 139890774509312] [remote 172.70.178.193:30168] 
+[Tue Nov 09 17:02:18.185065 2021] [wsgi:error] [pid 12223:tid 139890774509312] [remote 172.70.178.193:30168] Traceback (most recent call last):
+[Tue Nov 09 17:02:18.185070 2021] [wsgi:error] [pid 12223:tid 139890774509312] [remote 172.70.178.193:30168]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2073, in wsgi_app
+[Tue Nov 09 17:02:18.185074 2021] [wsgi:error] [pid 12223:tid 139890774509312] [remote 172.70.178.193:30168]     response = self.full_dispatch_request()
+[Tue Nov 09 17:02:18.185078 2021] [wsgi:error] [pid 12223:tid 139890774509312] [remote 172.70.178.193:30168]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1518, in full_dispatch_request
+[Tue Nov 09 17:02:18.185082 2021] [wsgi:error] [pid 12223:tid 139890774509312] [remote 172.70.178.193:30168]     rv = self.handle_user_exception(e)
+[Tue Nov 09 17:02:18.185086 2021] [wsgi:error] [pid 12223:tid 139890774509312] [remote 172.70.178.193:30168]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1516, in full_dispatch_request
+[Tue Nov 09 17:02:18.185090 2021] [wsgi:error] [pid 12223:tid 139890774509312] [remote 172.70.178.193:30168]     rv = self.dispatch_request()
+[Tue Nov 09 17:02:18.185094 2021] [wsgi:error] [pid 12223:tid 139890774509312] [remote 172.70.178.193:30168]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1502, in dispatch_request
+[Tue Nov 09 17:02:18.185099 2021] [wsgi:error] [pid 12223:tid 139890774509312] [remote 172.70.178.193:30168]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+[Tue Nov 09 17:02:18.185103 2021] [wsgi:error] [pid 12223:tid 139890774509312] [remote 172.70.178.193:30168]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 28, in log
+[Tue Nov 09 17:02:18.185107 2021] [wsgi:error] [pid 12223:tid 139890774509312] [remote 172.70.178.193:30168]     f = open("pythonError", "w")
+[Tue Nov 09 17:02:18.185111 2021] [wsgi:error] [pid 12223:tid 139890774509312] [remote 172.70.178.193:30168] PermissionError: [Errno 13] Permission denied: 'pythonError'
+[Tue Nov 09 17:11:14.246885 2021] [wsgi:error] [pid 12223:tid 139890774509312] [remote 172.70.178.193:16798] [2021-11-09 17:11:14,246] ERROR in app: Exception on /log [POST]
+[Tue Nov 09 17:11:14.246941 2021] [wsgi:error] [pid 12223:tid 139890774509312] [remote 172.70.178.193:16798] Traceback (most recent call last):
+[Tue Nov 09 17:11:14.246946 2021] [wsgi:error] [pid 12223:tid 139890774509312] [remote 172.70.178.193:16798]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 17, in log
+[Tue Nov 09 17:11:14.246950 2021] [wsgi:error] [pid 12223:tid 139890774509312] [remote 172.70.178.193:16798]     with open('Mining_Product_Selector/config.json', 'r') as f:
+[Tue Nov 09 17:11:14.246954 2021] [wsgi:error] [pid 12223:tid 139890774509312] [remote 172.70.178.193:16798] FileNotFoundError: [Errno 2] No such file or directory: 'Mining_Product_Selector/config.json'
+[Tue Nov 09 17:11:14.246957 2021] [wsgi:error] [pid 12223:tid 139890774509312] [remote 172.70.178.193:16798] 
+[Tue Nov 09 17:11:14.246961 2021] [wsgi:error] [pid 12223:tid 139890774509312] [remote 172.70.178.193:16798] During handling of the above exception, another exception occurred:
+[Tue Nov 09 17:11:14.246965 2021] [wsgi:error] [pid 12223:tid 139890774509312] [remote 172.70.178.193:16798] 
+[Tue Nov 09 17:11:14.246968 2021] [wsgi:error] [pid 12223:tid 139890774509312] [remote 172.70.178.193:16798] Traceback (most recent call last):
+[Tue Nov 09 17:11:14.246972 2021] [wsgi:error] [pid 12223:tid 139890774509312] [remote 172.70.178.193:16798]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2073, in wsgi_app
+[Tue Nov 09 17:11:14.246976 2021] [wsgi:error] [pid 12223:tid 139890774509312] [remote 172.70.178.193:16798]     response = self.full_dispatch_request()
+[Tue Nov 09 17:11:14.246979 2021] [wsgi:error] [pid 12223:tid 139890774509312] [remote 172.70.178.193:16798]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1518, in full_dispatch_request
+[Tue Nov 09 17:11:14.246983 2021] [wsgi:error] [pid 12223:tid 139890774509312] [remote 172.70.178.193:16798]     rv = self.handle_user_exception(e)
+[Tue Nov 09 17:11:14.246987 2021] [wsgi:error] [pid 12223:tid 139890774509312] [remote 172.70.178.193:16798]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1516, in full_dispatch_request
+[Tue Nov 09 17:11:14.246990 2021] [wsgi:error] [pid 12223:tid 139890774509312] [remote 172.70.178.193:16798]     rv = self.dispatch_request()
+[Tue Nov 09 17:11:14.246994 2021] [wsgi:error] [pid 12223:tid 139890774509312] [remote 172.70.178.193:16798]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1502, in dispatch_request
+[Tue Nov 09 17:11:14.246998 2021] [wsgi:error] [pid 12223:tid 139890774509312] [remote 172.70.178.193:16798]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+[Tue Nov 09 17:11:14.247001 2021] [wsgi:error] [pid 12223:tid 139890774509312] [remote 172.70.178.193:16798]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 28, in log
+[Tue Nov 09 17:11:14.247005 2021] [wsgi:error] [pid 12223:tid 139890774509312] [remote 172.70.178.193:16798]     f = open("pythonError", "w")
+[Tue Nov 09 17:11:14.247009 2021] [wsgi:error] [pid 12223:tid 139890774509312] [remote 172.70.178.193:16798] PermissionError: [Errno 13] Permission denied: 'pythonError'
+[Tue Nov 09 17:20:25.040870 2021] [wsgi:error] [pid 12644:tid 139731069736704] [remote 108.162.221.75:42232] [2021-11-09 17:20:25,039] ERROR in app: Exception on /log [POST]
+[Tue Nov 09 17:20:25.040941 2021] [wsgi:error] [pid 12644:tid 139731069736704] [remote 108.162.221.75:42232] Traceback (most recent call last):
+[Tue Nov 09 17:20:25.040946 2021] [wsgi:error] [pid 12644:tid 139731069736704] [remote 108.162.221.75:42232]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 17, in log
+[Tue Nov 09 17:20:25.040951 2021] [wsgi:error] [pid 12644:tid 139731069736704] [remote 108.162.221.75:42232]     with open('/Mining_Product_Selector/config.json', 'r') as f:
+[Tue Nov 09 17:20:25.040955 2021] [wsgi:error] [pid 12644:tid 139731069736704] [remote 108.162.221.75:42232] FileNotFoundError: [Errno 2] No such file or directory: '/Mining_Product_Selector/config.json'
+[Tue Nov 09 17:20:25.040969 2021] [wsgi:error] [pid 12644:tid 139731069736704] [remote 108.162.221.75:42232] 
+[Tue Nov 09 17:20:25.040972 2021] [wsgi:error] [pid 12644:tid 139731069736704] [remote 108.162.221.75:42232] During handling of the above exception, another exception occurred:
+[Tue Nov 09 17:20:25.040976 2021] [wsgi:error] [pid 12644:tid 139731069736704] [remote 108.162.221.75:42232] 
+[Tue Nov 09 17:20:25.040979 2021] [wsgi:error] [pid 12644:tid 139731069736704] [remote 108.162.221.75:42232] Traceback (most recent call last):
+[Tue Nov 09 17:20:25.040983 2021] [wsgi:error] [pid 12644:tid 139731069736704] [remote 108.162.221.75:42232]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2073, in wsgi_app
+[Tue Nov 09 17:20:25.040987 2021] [wsgi:error] [pid 12644:tid 139731069736704] [remote 108.162.221.75:42232]     response = self.full_dispatch_request()
+[Tue Nov 09 17:20:25.040991 2021] [wsgi:error] [pid 12644:tid 139731069736704] [remote 108.162.221.75:42232]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1518, in full_dispatch_request
+[Tue Nov 09 17:20:25.040994 2021] [wsgi:error] [pid 12644:tid 139731069736704] [remote 108.162.221.75:42232]     rv = self.handle_user_exception(e)
+[Tue Nov 09 17:20:25.040998 2021] [wsgi:error] [pid 12644:tid 139731069736704] [remote 108.162.221.75:42232]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1516, in full_dispatch_request
+[Tue Nov 09 17:20:25.041002 2021] [wsgi:error] [pid 12644:tid 139731069736704] [remote 108.162.221.75:42232]     rv = self.dispatch_request()
+[Tue Nov 09 17:20:25.041005 2021] [wsgi:error] [pid 12644:tid 139731069736704] [remote 108.162.221.75:42232]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1502, in dispatch_request
+[Tue Nov 09 17:20:25.041009 2021] [wsgi:error] [pid 12644:tid 139731069736704] [remote 108.162.221.75:42232]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+[Tue Nov 09 17:20:25.041013 2021] [wsgi:error] [pid 12644:tid 139731069736704] [remote 108.162.221.75:42232]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 28, in log
+[Tue Nov 09 17:20:25.041016 2021] [wsgi:error] [pid 12644:tid 139731069736704] [remote 108.162.221.75:42232]     f = open("pythonError", "w")
+[Tue Nov 09 17:20:25.041020 2021] [wsgi:error] [pid 12644:tid 139731069736704] [remote 108.162.221.75:42232] PermissionError: [Errno 13] Permission denied: 'pythonError'
+[Tue Nov 09 17:23:37.481728 2021] [wsgi:error] [pid 12886:tid 140509136807680] [remote 108.162.221.75:60034] [2021-11-09 17:23:37,479] ERROR in app: Exception on /log [POST]
+[Tue Nov 09 17:23:37.481768 2021] [wsgi:error] [pid 12886:tid 140509136807680] [remote 108.162.221.75:60034] Traceback (most recent call last):
+[Tue Nov 09 17:23:37.481774 2021] [wsgi:error] [pid 12886:tid 140509136807680] [remote 108.162.221.75:60034]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 17, in log
+[Tue Nov 09 17:23:37.481778 2021] [wsgi:error] [pid 12886:tid 140509136807680] [remote 108.162.221.75:60034]     with open('./Mining_Product_Selector/config.json', 'r') as f:
+[Tue Nov 09 17:23:37.481783 2021] [wsgi:error] [pid 12886:tid 140509136807680] [remote 108.162.221.75:60034] FileNotFoundError: [Errno 2] No such file or directory: './Mining_Product_Selector/config.json'
+[Tue Nov 09 17:23:37.481787 2021] [wsgi:error] [pid 12886:tid 140509136807680] [remote 108.162.221.75:60034] 
+[Tue Nov 09 17:23:37.481791 2021] [wsgi:error] [pid 12886:tid 140509136807680] [remote 108.162.221.75:60034] During handling of the above exception, another exception occurred:
+[Tue Nov 09 17:23:37.481796 2021] [wsgi:error] [pid 12886:tid 140509136807680] [remote 108.162.221.75:60034] 
+[Tue Nov 09 17:23:37.481799 2021] [wsgi:error] [pid 12886:tid 140509136807680] [remote 108.162.221.75:60034] Traceback (most recent call last):
+[Tue Nov 09 17:23:37.481804 2021] [wsgi:error] [pid 12886:tid 140509136807680] [remote 108.162.221.75:60034]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2073, in wsgi_app
+[Tue Nov 09 17:23:37.481817 2021] [wsgi:error] [pid 12886:tid 140509136807680] [remote 108.162.221.75:60034]     response = self.full_dispatch_request()
+[Tue Nov 09 17:23:37.481821 2021] [wsgi:error] [pid 12886:tid 140509136807680] [remote 108.162.221.75:60034]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1518, in full_dispatch_request
+[Tue Nov 09 17:23:37.481825 2021] [wsgi:error] [pid 12886:tid 140509136807680] [remote 108.162.221.75:60034]     rv = self.handle_user_exception(e)
+[Tue Nov 09 17:23:37.481828 2021] [wsgi:error] [pid 12886:tid 140509136807680] [remote 108.162.221.75:60034]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1516, in full_dispatch_request
+[Tue Nov 09 17:23:37.481832 2021] [wsgi:error] [pid 12886:tid 140509136807680] [remote 108.162.221.75:60034]     rv = self.dispatch_request()
+[Tue Nov 09 17:23:37.481836 2021] [wsgi:error] [pid 12886:tid 140509136807680] [remote 108.162.221.75:60034]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1502, in dispatch_request
+[Tue Nov 09 17:23:37.481839 2021] [wsgi:error] [pid 12886:tid 140509136807680] [remote 108.162.221.75:60034]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+[Tue Nov 09 17:23:37.481843 2021] [wsgi:error] [pid 12886:tid 140509136807680] [remote 108.162.221.75:60034]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 28, in log
+[Tue Nov 09 17:23:37.481847 2021] [wsgi:error] [pid 12886:tid 140509136807680] [remote 108.162.221.75:60034]     f = open("pythonError", "w")
+[Tue Nov 09 17:23:37.481850 2021] [wsgi:error] [pid 12886:tid 140509136807680] [remote 108.162.221.75:60034] PermissionError: [Errno 13] Permission denied: 'pythonError'
+[Tue Nov 09 17:25:22.456462 2021] [wsgi:error] [pid 13201:tid 139707432208128] [remote 108.162.221.75:17626] [2021-11-09 17:25:22,455] ERROR in app: Exception on /log [POST]
+[Tue Nov 09 17:25:22.456500 2021] [wsgi:error] [pid 13201:tid 139707432208128] [remote 108.162.221.75:17626] Traceback (most recent call last):
+[Tue Nov 09 17:25:22.456505 2021] [wsgi:error] [pid 13201:tid 139707432208128] [remote 108.162.221.75:17626]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 17, in log
+[Tue Nov 09 17:25:22.456510 2021] [wsgi:error] [pid 13201:tid 139707432208128] [remote 108.162.221.75:17626]     with open('config.json', 'r') as f:
+[Tue Nov 09 17:25:22.456514 2021] [wsgi:error] [pid 13201:tid 139707432208128] [remote 108.162.221.75:17626] FileNotFoundError: [Errno 2] No such file or directory: 'config.json'
+[Tue Nov 09 17:25:22.456519 2021] [wsgi:error] [pid 13201:tid 139707432208128] [remote 108.162.221.75:17626] 
+[Tue Nov 09 17:25:22.456523 2021] [wsgi:error] [pid 13201:tid 139707432208128] [remote 108.162.221.75:17626] During handling of the above exception, another exception occurred:
+[Tue Nov 09 17:25:22.456527 2021] [wsgi:error] [pid 13201:tid 139707432208128] [remote 108.162.221.75:17626] 
+[Tue Nov 09 17:25:22.456531 2021] [wsgi:error] [pid 13201:tid 139707432208128] [remote 108.162.221.75:17626] Traceback (most recent call last):
+[Tue Nov 09 17:25:22.456536 2021] [wsgi:error] [pid 13201:tid 139707432208128] [remote 108.162.221.75:17626]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2073, in wsgi_app
+[Tue Nov 09 17:25:22.456540 2021] [wsgi:error] [pid 13201:tid 139707432208128] [remote 108.162.221.75:17626]     response = self.full_dispatch_request()
+[Tue Nov 09 17:25:22.456544 2021] [wsgi:error] [pid 13201:tid 139707432208128] [remote 108.162.221.75:17626]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1518, in full_dispatch_request
+[Tue Nov 09 17:25:22.456551 2021] [wsgi:error] [pid 13201:tid 139707432208128] [remote 108.162.221.75:17626]     rv = self.handle_user_exception(e)
+[Tue Nov 09 17:25:22.456555 2021] [wsgi:error] [pid 13201:tid 139707432208128] [remote 108.162.221.75:17626]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1516, in full_dispatch_request
+[Tue Nov 09 17:25:22.456569 2021] [wsgi:error] [pid 13201:tid 139707432208128] [remote 108.162.221.75:17626]     rv = self.dispatch_request()
+[Tue Nov 09 17:25:22.456573 2021] [wsgi:error] [pid 13201:tid 139707432208128] [remote 108.162.221.75:17626]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1502, in dispatch_request
+[Tue Nov 09 17:25:22.456577 2021] [wsgi:error] [pid 13201:tid 139707432208128] [remote 108.162.221.75:17626]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+[Tue Nov 09 17:25:22.456581 2021] [wsgi:error] [pid 13201:tid 139707432208128] [remote 108.162.221.75:17626]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 28, in log
+[Tue Nov 09 17:25:22.456584 2021] [wsgi:error] [pid 13201:tid 139707432208128] [remote 108.162.221.75:17626]     f = open("pythonError", "w")
+[Tue Nov 09 17:25:22.456588 2021] [wsgi:error] [pid 13201:tid 139707432208128] [remote 108.162.221.75:17626] PermissionError: [Errno 13] Permission denied: 'pythonError'
+[Tue Nov 09 17:26:40.970162 2021] [wsgi:error] [pid 13201:tid 139707432208128] [remote 108.162.221.75:55898] [2021-11-09 17:26:40,969] ERROR in app: Exception on /log [POST]
+[Tue Nov 09 17:26:40.970191 2021] [wsgi:error] [pid 13201:tid 139707432208128] [remote 108.162.221.75:55898] Traceback (most recent call last):
+[Tue Nov 09 17:26:40.970196 2021] [wsgi:error] [pid 13201:tid 139707432208128] [remote 108.162.221.75:55898]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 17, in log
+[Tue Nov 09 17:26:40.970202 2021] [wsgi:error] [pid 13201:tid 139707432208128] [remote 108.162.221.75:55898]     with open('config.json', 'r') as f:
+[Tue Nov 09 17:26:40.970206 2021] [wsgi:error] [pid 13201:tid 139707432208128] [remote 108.162.221.75:55898] FileNotFoundError: [Errno 2] No such file or directory: 'config.json'
+[Tue Nov 09 17:26:40.970210 2021] [wsgi:error] [pid 13201:tid 139707432208128] [remote 108.162.221.75:55898] 
+[Tue Nov 09 17:26:40.970214 2021] [wsgi:error] [pid 13201:tid 139707432208128] [remote 108.162.221.75:55898] During handling of the above exception, another exception occurred:
+[Tue Nov 09 17:26:40.970219 2021] [wsgi:error] [pid 13201:tid 139707432208128] [remote 108.162.221.75:55898] 
+[Tue Nov 09 17:26:40.970223 2021] [wsgi:error] [pid 13201:tid 139707432208128] [remote 108.162.221.75:55898] Traceback (most recent call last):
+[Tue Nov 09 17:26:40.970227 2021] [wsgi:error] [pid 13201:tid 139707432208128] [remote 108.162.221.75:55898]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2073, in wsgi_app
+[Tue Nov 09 17:26:40.970231 2021] [wsgi:error] [pid 13201:tid 139707432208128] [remote 108.162.221.75:55898]     response = self.full_dispatch_request()
+[Tue Nov 09 17:26:40.970235 2021] [wsgi:error] [pid 13201:tid 139707432208128] [remote 108.162.221.75:55898]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1518, in full_dispatch_request
+[Tue Nov 09 17:26:40.970240 2021] [wsgi:error] [pid 13201:tid 139707432208128] [remote 108.162.221.75:55898]     rv = self.handle_user_exception(e)
+[Tue Nov 09 17:26:40.970244 2021] [wsgi:error] [pid 13201:tid 139707432208128] [remote 108.162.221.75:55898]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1516, in full_dispatch_request
+[Tue Nov 09 17:26:40.970248 2021] [wsgi:error] [pid 13201:tid 139707432208128] [remote 108.162.221.75:55898]     rv = self.dispatch_request()
+[Tue Nov 09 17:26:40.970252 2021] [wsgi:error] [pid 13201:tid 139707432208128] [remote 108.162.221.75:55898]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1502, in dispatch_request
+[Tue Nov 09 17:26:40.970256 2021] [wsgi:error] [pid 13201:tid 139707432208128] [remote 108.162.221.75:55898]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+[Tue Nov 09 17:26:40.970261 2021] [wsgi:error] [pid 13201:tid 139707432208128] [remote 108.162.221.75:55898]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 28, in log
+[Tue Nov 09 17:26:40.970275 2021] [wsgi:error] [pid 13201:tid 139707432208128] [remote 108.162.221.75:55898]     f = open("pythonError", "w")
+[Tue Nov 09 17:26:40.970279 2021] [wsgi:error] [pid 13201:tid 139707432208128] [remote 108.162.221.75:55898] PermissionError: [Errno 13] Permission denied: 'pythonError'
+[Tue Nov 09 17:28:24.990507 2021] [wsgi:error] [pid 13671:tid 140023039751936] [remote 108.162.221.75:30996] [2021-11-09 17:28:24,988] ERROR in app: Exception on /log [POST]
+[Tue Nov 09 17:28:24.992070 2021] [wsgi:error] [pid 13671:tid 140023039751936] [remote 108.162.221.75:30996] Traceback (most recent call last):
+[Tue Nov 09 17:28:24.992081 2021] [wsgi:error] [pid 13671:tid 140023039751936] [remote 108.162.221.75:30996]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 17, in log
+[Tue Nov 09 17:28:24.992087 2021] [wsgi:error] [pid 13671:tid 140023039751936] [remote 108.162.221.75:30996]     with open('/config.json', 'r') as f:
+[Tue Nov 09 17:28:24.992091 2021] [wsgi:error] [pid 13671:tid 140023039751936] [remote 108.162.221.75:30996] FileNotFoundError: [Errno 2] No such file or directory: '/config.json'
+[Tue Nov 09 17:28:24.992095 2021] [wsgi:error] [pid 13671:tid 140023039751936] [remote 108.162.221.75:30996] 
+[Tue Nov 09 17:28:24.992099 2021] [wsgi:error] [pid 13671:tid 140023039751936] [remote 108.162.221.75:30996] During handling of the above exception, another exception occurred:
+[Tue Nov 09 17:28:24.992103 2021] [wsgi:error] [pid 13671:tid 140023039751936] [remote 108.162.221.75:30996] 
+[Tue Nov 09 17:28:24.992107 2021] [wsgi:error] [pid 13671:tid 140023039751936] [remote 108.162.221.75:30996] Traceback (most recent call last):
+[Tue Nov 09 17:28:24.992111 2021] [wsgi:error] [pid 13671:tid 140023039751936] [remote 108.162.221.75:30996]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2073, in wsgi_app
+[Tue Nov 09 17:28:24.992116 2021] [wsgi:error] [pid 13671:tid 140023039751936] [remote 108.162.221.75:30996]     response = self.full_dispatch_request()
+[Tue Nov 09 17:28:24.992120 2021] [wsgi:error] [pid 13671:tid 140023039751936] [remote 108.162.221.75:30996]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1518, in full_dispatch_request
+[Tue Nov 09 17:28:24.992124 2021] [wsgi:error] [pid 13671:tid 140023039751936] [remote 108.162.221.75:30996]     rv = self.handle_user_exception(e)
+[Tue Nov 09 17:28:24.992128 2021] [wsgi:error] [pid 13671:tid 140023039751936] [remote 108.162.221.75:30996]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1516, in full_dispatch_request
+[Tue Nov 09 17:28:24.992132 2021] [wsgi:error] [pid 13671:tid 140023039751936] [remote 108.162.221.75:30996]     rv = self.dispatch_request()
+[Tue Nov 09 17:28:24.992136 2021] [wsgi:error] [pid 13671:tid 140023039751936] [remote 108.162.221.75:30996]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1502, in dispatch_request
+[Tue Nov 09 17:28:24.992141 2021] [wsgi:error] [pid 13671:tid 140023039751936] [remote 108.162.221.75:30996]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+[Tue Nov 09 17:28:24.992145 2021] [wsgi:error] [pid 13671:tid 140023039751936] [remote 108.162.221.75:30996]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 28, in log
+[Tue Nov 09 17:28:24.992149 2021] [wsgi:error] [pid 13671:tid 140023039751936] [remote 108.162.221.75:30996]     f = open("pythonError", "w")
+[Tue Nov 09 17:28:24.992153 2021] [wsgi:error] [pid 13671:tid 140023039751936] [remote 108.162.221.75:30996] PermissionError: [Errno 13] Permission denied: 'pythonError'

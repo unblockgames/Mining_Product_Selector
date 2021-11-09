@@ -256,7 +256,13 @@ const Step3 = (props) => {
                 >
                   Buy
                 </button>
-                <button className="btn btn-secondary" style={{ width: "45%" }}>
+                <button
+                  onClick={() => {
+                    window.open(panel.specSheetUrl, "_blank").focus();
+                  }}
+                  className="btn btn-secondary"
+                  style={{ width: "45%" }}
+                >
                   Specs
                 </button>
               </CardFooter>
