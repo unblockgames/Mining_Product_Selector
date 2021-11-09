@@ -84,8 +84,9 @@ const Step3 = (props) => {
             <Card
               className="product"
               width="250px"
-              height="450px"
+              height="500px"
               onClick={() => console.log("Clicked!")}
+              style={{ justifySelf: "center" }}
             >
               <CardHeader justify="end">
                 <span class="badge bg-danger">
@@ -176,8 +177,9 @@ const Step3 = (props) => {
             <Card
               className="product"
               width="250px"
-              height="450px"
+              height="500px"
               onClick={() => console.log("Clicked!")}
+              style={{ justifySelf: "center" }}
             >
               <CardHeader justify="end">
                 <span class="badge bg-danger">

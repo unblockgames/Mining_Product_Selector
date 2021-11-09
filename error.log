@@ -749,3 +749,188 @@
 [Tue Nov 09 17:28:24.992145 2021] [wsgi:error] [pid 13671:tid 140023039751936] [remote 108.162.221.75:30996]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 28, in log
 [Tue Nov 09 17:28:24.992149 2021] [wsgi:error] [pid 13671:tid 140023039751936] [remote 108.162.221.75:30996]     f = open("pythonError", "w")
 [Tue Nov 09 17:28:24.992153 2021] [wsgi:error] [pid 13671:tid 140023039751936] [remote 108.162.221.75:30996] PermissionError: [Errno 13] Permission denied: 'pythonError'
+[Tue Nov 09 20:56:53.070343 2021] [wsgi:error] [pid 15704:tid 139970747950848] [remote 172.69.71.169:29208] [2021-11-09 20:56:53,064] ERROR in app: Exception on /log [POST]
+[Tue Nov 09 20:56:53.070775 2021] [wsgi:error] [pid 15704:tid 139970747950848] [remote 172.69.71.169:29208] Traceback (most recent call last):
+[Tue Nov 09 20:56:53.070784 2021] [wsgi:error] [pid 15704:tid 139970747950848] [remote 172.69.71.169:29208]   File "/usr/local/lib/python3.8/dist-packages/mysql/connector/connection_cext.py", line 517, in cmd_query
+[Tue Nov 09 20:56:53.070796 2021] [wsgi:error] [pid 15704:tid 139970747950848] [remote 172.69.71.169:29208]     self._cmysql.query(query,
+[Tue Nov 09 20:56:53.070800 2021] [wsgi:error] [pid 15704:tid 139970747950848] [remote 172.69.71.169:29208] _mysql_connector.MySQLInterfaceError: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'events (jsonlog) VALUES ('{
+[Tue Nov 09 20:56:53.070805 2021] [wsgi:error] [pid 15704:tid 139970747950848] [remote 172.69.71.169:29208]     "step": 3,
+[Tue Nov 09 20:56:53.070808 2021] [wsgi:error] [pid 15704:tid 139970747950848] [remote 172.69.71.169:29208]     "plugQty": "2",
+[Tue Nov 09 20:56:53.070812 2021] [wsgi:error] [pid 15704:tid 139970747950848] [remote 172.69.71.169:29208]     "plugType"...' at line 1
+[Tue Nov 09 20:56:53.070816 2021] [wsgi:error] [pid 15704:tid 139970747950848] [remote 172.69.71.169:29208] 
+[Tue Nov 09 20:56:53.070819 2021] [wsgi:error] [pid 15704:tid 139970747950848] [remote 172.69.71.169:29208] During handling of the above exception, another exception occurred:
+[Tue Nov 09 20:56:53.070823 2021] [wsgi:error] [pid 15704:tid 139970747950848] [remote 172.69.71.169:29208] 
+[Tue Nov 09 20:56:53.070826 2021] [wsgi:error] [pid 15704:tid 139970747950848] [remote 172.69.71.169:29208] Traceback (most recent call last):
+[Tue Nov 09 20:56:53.070830 2021] [wsgi:error] [pid 15704:tid 139970747950848] [remote 172.69.71.169:29208]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 25, in log
+[Tue Nov 09 20:56:53.070834 2021] [wsgi:error] [pid 15704:tid 139970747950848] [remote 172.69.71.169:29208]     cursor.execute(sql)
+[Tue Nov 09 20:56:53.070838 2021] [wsgi:error] [pid 15704:tid 139970747950848] [remote 172.69.71.169:29208]   File "/usr/local/lib/python3.8/dist-packages/mysql/connector/cursor_cext.py", line 270, in execute
+[Tue Nov 09 20:56:53.070842 2021] [wsgi:error] [pid 15704:tid 139970747950848] [remote 172.69.71.169:29208]     result = self._cnx.cmd_query(stmt, raw=self._raw,
+[Tue Nov 09 20:56:53.070845 2021] [wsgi:error] [pid 15704:tid 139970747950848] [remote 172.69.71.169:29208]   File "/usr/local/lib/python3.8/dist-packages/mysql/connector/connection_cext.py", line 522, in cmd_query
+[Tue Nov 09 20:56:53.070849 2021] [wsgi:error] [pid 15704:tid 139970747950848] [remote 172.69.71.169:29208]     raise errors.get_mysql_exception(exc.errno, msg=exc.msg,
+[Tue Nov 09 20:56:53.070853 2021] [wsgi:error] [pid 15704:tid 139970747950848] [remote 172.69.71.169:29208] mysql.connector.errors.ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'events (jsonlog) VALUES ('{
+[Tue Nov 09 20:56:53.070857 2021] [wsgi:error] [pid 15704:tid 139970747950848] [remote 172.69.71.169:29208]     "step": 3,
+[Tue Nov 09 20:56:53.070861 2021] [wsgi:error] [pid 15704:tid 139970747950848] [remote 172.69.71.169:29208]     "plugQty": "2",
+[Tue Nov 09 20:56:53.070865 2021] [wsgi:error] [pid 15704:tid 139970747950848] [remote 172.69.71.169:29208]     "plugType"...' at line 1
+[Tue Nov 09 20:56:53.070868 2021] [wsgi:error] [pid 15704:tid 139970747950848] [remote 172.69.71.169:29208] 
+[Tue Nov 09 20:56:53.070872 2021] [wsgi:error] [pid 15704:tid 139970747950848] [remote 172.69.71.169:29208] During handling of the above exception, another exception occurred:
+[Tue Nov 09 20:56:53.070875 2021] [wsgi:error] [pid 15704:tid 139970747950848] [remote 172.69.71.169:29208] 
+[Tue Nov 09 20:56:53.070879 2021] [wsgi:error] [pid 15704:tid 139970747950848] [remote 172.69.71.169:29208] Traceback (most recent call last):
+[Tue Nov 09 20:56:53.070883 2021] [wsgi:error] [pid 15704:tid 139970747950848] [remote 172.69.71.169:29208]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2073, in wsgi_app
+[Tue Nov 09 20:56:53.070887 2021] [wsgi:error] [pid 15704:tid 139970747950848] [remote 172.69.71.169:29208]     response = self.full_dispatch_request()
+[Tue Nov 09 20:56:53.070894 2021] [wsgi:error] [pid 15704:tid 139970747950848] [remote 172.69.71.169:29208]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1518, in full_dispatch_request
+[Tue Nov 09 20:56:53.070898 2021] [wsgi:error] [pid 15704:tid 139970747950848] [remote 172.69.71.169:29208]     rv = self.handle_user_exception(e)
+[Tue Nov 09 20:56:53.070902 2021] [wsgi:error] [pid 15704:tid 139970747950848] [remote 172.69.71.169:29208]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1516, in full_dispatch_request
+[Tue Nov 09 20:56:53.070906 2021] [wsgi:error] [pid 15704:tid 139970747950848] [remote 172.69.71.169:29208]     rv = self.dispatch_request()
+[Tue Nov 09 20:56:53.070909 2021] [wsgi:error] [pid 15704:tid 139970747950848] [remote 172.69.71.169:29208]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1502, in dispatch_request
+[Tue Nov 09 20:56:53.070913 2021] [wsgi:error] [pid 15704:tid 139970747950848] [remote 172.69.71.169:29208]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+[Tue Nov 09 20:56:53.070917 2021] [wsgi:error] [pid 15704:tid 139970747950848] [remote 172.69.71.169:29208]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 29, in log
+[Tue Nov 09 20:56:53.070920 2021] [wsgi:error] [pid 15704:tid 139970747950848] [remote 172.69.71.169:29208]     f.write(e)
+[Tue Nov 09 20:56:53.070924 2021] [wsgi:error] [pid 15704:tid 139970747950848] [remote 172.69.71.169:29208] TypeError: write() argument must be str, not ProgrammingError
+[Tue Nov 09 20:57:00.549608 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.175:15332] [2021-11-09 20:57:00,549] ERROR in app: Exception on /log [POST]
+[Tue Nov 09 20:57:00.549632 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.175:15332] Traceback (most recent call last):
+[Tue Nov 09 20:57:00.549637 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.175:15332]   File "/usr/local/lib/python3.8/dist-packages/mysql/connector/connection_cext.py", line 517, in cmd_query
+[Tue Nov 09 20:57:00.549642 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.175:15332]     self._cmysql.query(query,
+[Tue Nov 09 20:57:00.549646 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.175:15332] _mysql_connector.MySQLInterfaceError: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'events (jsonlog) VALUES ('{
+[Tue Nov 09 20:57:00.549650 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.175:15332]     "step": 3,
+[Tue Nov 09 20:57:00.549654 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.175:15332]     "plugQty": "1",
+[Tue Nov 09 20:57:00.549658 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.175:15332]     "plugType"...' at line 1
+[Tue Nov 09 20:57:00.549662 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.175:15332] 
+[Tue Nov 09 20:57:00.549666 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.175:15332] During handling of the above exception, another exception occurred:
+[Tue Nov 09 20:57:00.549669 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.175:15332] 
+[Tue Nov 09 20:57:00.549673 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.175:15332] Traceback (most recent call last):
+[Tue Nov 09 20:57:00.549677 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.175:15332]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 25, in log
+[Tue Nov 09 20:57:00.549681 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.175:15332]     cursor.execute(sql)
+[Tue Nov 09 20:57:00.549684 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.175:15332]   File "/usr/local/lib/python3.8/dist-packages/mysql/connector/cursor_cext.py", line 270, in execute
+[Tue Nov 09 20:57:00.549701 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.175:15332]     result = self._cnx.cmd_query(stmt, raw=self._raw,
+[Tue Nov 09 20:57:00.549705 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.175:15332]   File "/usr/local/lib/python3.8/dist-packages/mysql/connector/connection_cext.py", line 522, in cmd_query
+[Tue Nov 09 20:57:00.549709 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.175:15332]     raise errors.get_mysql_exception(exc.errno, msg=exc.msg,
+[Tue Nov 09 20:57:00.549713 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.175:15332] mysql.connector.errors.ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'events (jsonlog) VALUES ('{
+[Tue Nov 09 20:57:00.549717 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.175:15332]     "step": 3,
+[Tue Nov 09 20:57:00.549721 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.175:15332]     "plugQty": "1",
+[Tue Nov 09 20:57:00.549724 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.175:15332]     "plugType"...' at line 1
+[Tue Nov 09 20:57:00.549728 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.175:15332] 
+[Tue Nov 09 20:57:00.549731 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.175:15332] During handling of the above exception, another exception occurred:
+[Tue Nov 09 20:57:00.549735 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.175:15332] 
+[Tue Nov 09 20:57:00.549739 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.175:15332] Traceback (most recent call last):
+[Tue Nov 09 20:57:00.549743 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.175:15332]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2073, in wsgi_app
+[Tue Nov 09 20:57:00.549746 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.175:15332]     response = self.full_dispatch_request()
+[Tue Nov 09 20:57:00.549750 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.175:15332]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1518, in full_dispatch_request
+[Tue Nov 09 20:57:00.549754 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.175:15332]     rv = self.handle_user_exception(e)
+[Tue Nov 09 20:57:00.549757 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.175:15332]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1516, in full_dispatch_request
+[Tue Nov 09 20:57:00.549761 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.175:15332]     rv = self.dispatch_request()
+[Tue Nov 09 20:57:00.549765 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.175:15332]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1502, in dispatch_request
+[Tue Nov 09 20:57:00.549769 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.175:15332]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+[Tue Nov 09 20:57:00.549772 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.175:15332]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 29, in log
+[Tue Nov 09 20:57:00.549776 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.175:15332]     f.write(e)
+[Tue Nov 09 20:57:00.549780 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.175:15332] TypeError: write() argument must be str, not ProgrammingError
+[Tue Nov 09 20:58:39.467297 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.87:65432] [2021-11-09 20:58:39,466] ERROR in app: Exception on /log [POST]
+[Tue Nov 09 20:58:39.467337 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.87:65432] Traceback (most recent call last):
+[Tue Nov 09 20:58:39.467352 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.87:65432]   File "/usr/local/lib/python3.8/dist-packages/mysql/connector/connection_cext.py", line 517, in cmd_query
+[Tue Nov 09 20:58:39.467357 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.87:65432]     self._cmysql.query(query,
+[Tue Nov 09 20:58:39.467361 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.87:65432] _mysql_connector.MySQLInterfaceError: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'events (jsonlog) VALUES ('{
+[Tue Nov 09 20:58:39.467365 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.87:65432]     "step": 3,
+[Tue Nov 09 20:58:39.467368 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.87:65432]     "plugQty": "1",
+[Tue Nov 09 20:58:39.467372 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.87:65432]     "plugType"...' at line 1
+[Tue Nov 09 20:58:39.467375 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.87:65432] 
+[Tue Nov 09 20:58:39.467379 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.87:65432] During handling of the above exception, another exception occurred:
+[Tue Nov 09 20:58:39.467382 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.87:65432] 
+[Tue Nov 09 20:58:39.467385 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.87:65432] Traceback (most recent call last):
+[Tue Nov 09 20:58:39.467389 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.87:65432]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 25, in log
+[Tue Nov 09 20:58:39.467393 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.87:65432]     cursor.execute(sql)
+[Tue Nov 09 20:58:39.467396 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.87:65432]   File "/usr/local/lib/python3.8/dist-packages/mysql/connector/cursor_cext.py", line 270, in execute
+[Tue Nov 09 20:58:39.467400 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.87:65432]     result = self._cnx.cmd_query(stmt, raw=self._raw,
+[Tue Nov 09 20:58:39.467404 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.87:65432]   File "/usr/local/lib/python3.8/dist-packages/mysql/connector/connection_cext.py", line 522, in cmd_query
+[Tue Nov 09 20:58:39.467408 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.87:65432]     raise errors.get_mysql_exception(exc.errno, msg=exc.msg,
+[Tue Nov 09 20:58:39.467412 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.87:65432] mysql.connector.errors.ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'events (jsonlog) VALUES ('{
+[Tue Nov 09 20:58:39.467415 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.87:65432]     "step": 3,
+[Tue Nov 09 20:58:39.467419 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.87:65432]     "plugQty": "1",
+[Tue Nov 09 20:58:39.467422 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.87:65432]     "plugType"...' at line 1
+[Tue Nov 09 20:58:39.467426 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.87:65432] 
+[Tue Nov 09 20:58:39.467429 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.87:65432] During handling of the above exception, another exception occurred:
+[Tue Nov 09 20:58:39.467433 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.87:65432] 
+[Tue Nov 09 20:58:39.467436 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.87:65432] Traceback (most recent call last):
+[Tue Nov 09 20:58:39.467440 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.87:65432]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2073, in wsgi_app
+[Tue Nov 09 20:58:39.467448 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.87:65432]     response = self.full_dispatch_request()
+[Tue Nov 09 20:58:39.467452 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.87:65432]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1518, in full_dispatch_request
+[Tue Nov 09 20:58:39.467455 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.87:65432]     rv = self.handle_user_exception(e)
+[Tue Nov 09 20:58:39.467459 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.87:65432]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1516, in full_dispatch_request
+[Tue Nov 09 20:58:39.467463 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.87:65432]     rv = self.dispatch_request()
+[Tue Nov 09 20:58:39.467466 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.87:65432]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1502, in dispatch_request
+[Tue Nov 09 20:58:39.467470 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.87:65432]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+[Tue Nov 09 20:58:39.467473 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.87:65432]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 29, in log
+[Tue Nov 09 20:58:39.467477 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.87:65432]     f.write(e)
+[Tue Nov 09 20:58:39.467480 2021] [wsgi:error] [pid 15704:tid 139970731165440] [remote 108.162.221.87:65432] TypeError: write() argument must be str, not ProgrammingError
+[Tue Nov 09 21:02:45.422394 2021] [wsgi:error] [pid 16027:tid 140338878351104] [remote 172.69.69.126:57756] [2021-11-09 21:02:45,420] ERROR in app: Exception on /log [POST]
+[Tue Nov 09 21:02:45.422432 2021] [wsgi:error] [pid 16027:tid 140338878351104] [remote 172.69.69.126:57756] Traceback (most recent call last):
+[Tue Nov 09 21:02:45.422437 2021] [wsgi:error] [pid 16027:tid 140338878351104] [remote 172.69.69.126:57756]   File "/usr/local/lib/python3.8/dist-packages/mysql/connector/connection_cext.py", line 517, in cmd_query
+[Tue Nov 09 21:02:45.422442 2021] [wsgi:error] [pid 16027:tid 140338878351104] [remote 172.69.69.126:57756]     self._cmysql.query(query,
+[Tue Nov 09 21:02:45.422447 2021] [wsgi:error] [pid 16027:tid 140338878351104] [remote 172.69.69.126:57756] _mysql_connector.MySQLInterfaceError: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'events (jsonlog) VALUES ('{
+[Tue Nov 09 21:02:45.422452 2021] [wsgi:error] [pid 16027:tid 140338878351104] [remote 172.69.69.126:57756]     "step": 3,
+[Tue Nov 09 21:02:45.422457 2021] [wsgi:error] [pid 16027:tid 140338878351104] [remote 172.69.69.126:57756]     "plugQty": "1",
+[Tue Nov 09 21:02:45.422461 2021] [wsgi:error] [pid 16027:tid 140338878351104] [remote 172.69.69.126:57756]     "plugType"...' at line 1
+[Tue Nov 09 21:02:45.422465 2021] [wsgi:error] [pid 16027:tid 140338878351104] [remote 172.69.69.126:57756] 
+[Tue Nov 09 21:02:45.422469 2021] [wsgi:error] [pid 16027:tid 140338878351104] [remote 172.69.69.126:57756] During handling of the above exception, another exception occurred:
+[Tue Nov 09 21:02:45.422473 2021] [wsgi:error] [pid 16027:tid 140338878351104] [remote 172.69.69.126:57756] 
+[Tue Nov 09 21:02:45.422477 2021] [wsgi:error] [pid 16027:tid 140338878351104] [remote 172.69.69.126:57756] Traceback (most recent call last):
+[Tue Nov 09 21:02:45.422481 2021] [wsgi:error] [pid 16027:tid 140338878351104] [remote 172.69.69.126:57756]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 25, in log
+[Tue Nov 09 21:02:45.422485 2021] [wsgi:error] [pid 16027:tid 140338878351104] [remote 172.69.69.126:57756]     cursor.execute(sql)
+[Tue Nov 09 21:02:45.422498 2021] [wsgi:error] [pid 16027:tid 140338878351104] [remote 172.69.69.126:57756]   File "/usr/local/lib/python3.8/dist-packages/mysql/connector/cursor_cext.py", line 270, in execute
+[Tue Nov 09 21:02:45.422503 2021] [wsgi:error] [pid 16027:tid 140338878351104] [remote 172.69.69.126:57756]     result = self._cnx.cmd_query(stmt, raw=self._raw,
+[Tue Nov 09 21:02:45.422507 2021] [wsgi:error] [pid 16027:tid 140338878351104] [remote 172.69.69.126:57756]   File "/usr/local/lib/python3.8/dist-packages/mysql/connector/connection_cext.py", line 522, in cmd_query
+[Tue Nov 09 21:02:45.422510 2021] [wsgi:error] [pid 16027:tid 140338878351104] [remote 172.69.69.126:57756]     raise errors.get_mysql_exception(exc.errno, msg=exc.msg,
+[Tue Nov 09 21:02:45.422514 2021] [wsgi:error] [pid 16027:tid 140338878351104] [remote 172.69.69.126:57756] mysql.connector.errors.ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'events (jsonlog) VALUES ('{
+[Tue Nov 09 21:02:45.422518 2021] [wsgi:error] [pid 16027:tid 140338878351104] [remote 172.69.69.126:57756]     "step": 3,
+[Tue Nov 09 21:02:45.422522 2021] [wsgi:error] [pid 16027:tid 140338878351104] [remote 172.69.69.126:57756]     "plugQty": "1",
+[Tue Nov 09 21:02:45.422526 2021] [wsgi:error] [pid 16027:tid 140338878351104] [remote 172.69.69.126:57756]     "plugType"...' at line 1
+[Tue Nov 09 21:02:45.422529 2021] [wsgi:error] [pid 16027:tid 140338878351104] [remote 172.69.69.126:57756] 
+[Tue Nov 09 21:02:45.422533 2021] [wsgi:error] [pid 16027:tid 140338878351104] [remote 172.69.69.126:57756] During handling of the above exception, another exception occurred:
+[Tue Nov 09 21:02:45.422536 2021] [wsgi:error] [pid 16027:tid 140338878351104] [remote 172.69.69.126:57756] 
+[Tue Nov 09 21:02:45.422540 2021] [wsgi:error] [pid 16027:tid 140338878351104] [remote 172.69.69.126:57756] Traceback (most recent call last):
+[Tue Nov 09 21:02:45.422544 2021] [wsgi:error] [pid 16027:tid 140338878351104] [remote 172.69.69.126:57756]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2073, in wsgi_app
+[Tue Nov 09 21:02:45.422548 2021] [wsgi:error] [pid 16027:tid 140338878351104] [remote 172.69.69.126:57756]     response = self.full_dispatch_request()
+[Tue Nov 09 21:02:45.422551 2021] [wsgi:error] [pid 16027:tid 140338878351104] [remote 172.69.69.126:57756]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1518, in full_dispatch_request
+[Tue Nov 09 21:02:45.422555 2021] [wsgi:error] [pid 16027:tid 140338878351104] [remote 172.69.69.126:57756]     rv = self.handle_user_exception(e)
+[Tue Nov 09 21:02:45.422559 2021] [wsgi:error] [pid 16027:tid 140338878351104] [remote 172.69.69.126:57756]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1516, in full_dispatch_request
+[Tue Nov 09 21:02:45.422562 2021] [wsgi:error] [pid 16027:tid 140338878351104] [remote 172.69.69.126:57756]     rv = self.dispatch_request()
+[Tue Nov 09 21:02:45.422566 2021] [wsgi:error] [pid 16027:tid 140338878351104] [remote 172.69.69.126:57756]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1502, in dispatch_request
+[Tue Nov 09 21:02:45.422570 2021] [wsgi:error] [pid 16027:tid 140338878351104] [remote 172.69.69.126:57756]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+[Tue Nov 09 21:02:45.422574 2021] [wsgi:error] [pid 16027:tid 140338878351104] [remote 172.69.69.126:57756]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 29, in log
+[Tue Nov 09 21:02:45.422577 2021] [wsgi:error] [pid 16027:tid 140338878351104] [remote 172.69.69.126:57756]     f.write(e.args)
+[Tue Nov 09 21:02:45.422581 2021] [wsgi:error] [pid 16027:tid 140338878351104] [remote 172.69.69.126:57756] TypeError: write() argument must be str, not tuple
+[Tue Nov 09 21:04:31.929759 2021] [wsgi:error] [pid 16267:tid 140471627314944] [remote 172.69.69.126:27788] [2021-11-09 21:04:31,925] ERROR in app: Exception on /log [POST]
+[Tue Nov 09 21:04:31.929805 2021] [wsgi:error] [pid 16267:tid 140471627314944] [remote 172.69.69.126:27788] Traceback (most recent call last):
+[Tue Nov 09 21:04:31.929816 2021] [wsgi:error] [pid 16267:tid 140471627314944] [remote 172.69.69.126:27788]   File "/usr/local/lib/python3.8/dist-packages/mysql/connector/connection_cext.py", line 517, in cmd_query
+[Tue Nov 09 21:04:31.929821 2021] [wsgi:error] [pid 16267:tid 140471627314944] [remote 172.69.69.126:27788]     self._cmysql.query(query,
+[Tue Nov 09 21:04:31.929826 2021] [wsgi:error] [pid 16267:tid 140471627314944] [remote 172.69.69.126:27788] _mysql_connector.MySQLInterfaceError: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'events (jsonlog) VALUES ('{
+[Tue Nov 09 21:04:31.929830 2021] [wsgi:error] [pid 16267:tid 140471627314944] [remote 172.69.69.126:27788]     "step": 3,
+[Tue Nov 09 21:04:31.929833 2021] [wsgi:error] [pid 16267:tid 140471627314944] [remote 172.69.69.126:27788]     "plugQty": "1",
+[Tue Nov 09 21:04:31.929837 2021] [wsgi:error] [pid 16267:tid 140471627314944] [remote 172.69.69.126:27788]     "plugType"...' at line 1
+[Tue Nov 09 21:04:31.929841 2021] [wsgi:error] [pid 16267:tid 140471627314944] [remote 172.69.69.126:27788] 
+[Tue Nov 09 21:04:31.929844 2021] [wsgi:error] [pid 16267:tid 140471627314944] [remote 172.69.69.126:27788] During handling of the above exception, another exception occurred:
+[Tue Nov 09 21:04:31.929848 2021] [wsgi:error] [pid 16267:tid 140471627314944] [remote 172.69.69.126:27788] 
+[Tue Nov 09 21:04:31.929851 2021] [wsgi:error] [pid 16267:tid 140471627314944] [remote 172.69.69.126:27788] Traceback (most recent call last):
+[Tue Nov 09 21:04:31.929855 2021] [wsgi:error] [pid 16267:tid 140471627314944] [remote 172.69.69.126:27788]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 25, in log
+[Tue Nov 09 21:04:31.929859 2021] [wsgi:error] [pid 16267:tid 140471627314944] [remote 172.69.69.126:27788]     cursor.execute(sql)
+[Tue Nov 09 21:04:31.929863 2021] [wsgi:error] [pid 16267:tid 140471627314944] [remote 172.69.69.126:27788]   File "/usr/local/lib/python3.8/dist-packages/mysql/connector/cursor_cext.py", line 270, in execute
+[Tue Nov 09 21:04:31.929867 2021] [wsgi:error] [pid 16267:tid 140471627314944] [remote 172.69.69.126:27788]     result = self._cnx.cmd_query(stmt, raw=self._raw,
+[Tue Nov 09 21:04:31.929870 2021] [wsgi:error] [pid 16267:tid 140471627314944] [remote 172.69.69.126:27788]   File "/usr/local/lib/python3.8/dist-packages/mysql/connector/connection_cext.py", line 522, in cmd_query
+[Tue Nov 09 21:04:31.929874 2021] [wsgi:error] [pid 16267:tid 140471627314944] [remote 172.69.69.126:27788]     raise errors.get_mysql_exception(exc.errno, msg=exc.msg,
+[Tue Nov 09 21:04:31.929878 2021] [wsgi:error] [pid 16267:tid 140471627314944] [remote 172.69.69.126:27788] mysql.connector.errors.ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'events (jsonlog) VALUES ('{
+[Tue Nov 09 21:04:31.929882 2021] [wsgi:error] [pid 16267:tid 140471627314944] [remote 172.69.69.126:27788]     "step": 3,
+[Tue Nov 09 21:04:31.929886 2021] [wsgi:error] [pid 16267:tid 140471627314944] [remote 172.69.69.126:27788]     "plugQty": "1",
+[Tue Nov 09 21:04:31.929889 2021] [wsgi:error] [pid 16267:tid 140471627314944] [remote 172.69.69.126:27788]     "plugType"...' at line 1
+[Tue Nov 09 21:04:31.929893 2021] [wsgi:error] [pid 16267:tid 140471627314944] [remote 172.69.69.126:27788] 
+[Tue Nov 09 21:04:31.929896 2021] [wsgi:error] [pid 16267:tid 140471627314944] [remote 172.69.69.126:27788] During handling of the above exception, another exception occurred:
+[Tue Nov 09 21:04:31.929900 2021] [wsgi:error] [pid 16267:tid 140471627314944] [remote 172.69.69.126:27788] 
+[Tue Nov 09 21:04:31.929904 2021] [wsgi:error] [pid 16267:tid 140471627314944] [remote 172.69.69.126:27788] Traceback (most recent call last):
+[Tue Nov 09 21:04:31.929911 2021] [wsgi:error] [pid 16267:tid 140471627314944] [remote 172.69.69.126:27788]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2073, in wsgi_app
+[Tue Nov 09 21:04:31.929915 2021] [wsgi:error] [pid 16267:tid 140471627314944] [remote 172.69.69.126:27788]     response = self.full_dispatch_request()
+[Tue Nov 09 21:04:31.929919 2021] [wsgi:error] [pid 16267:tid 140471627314944] [remote 172.69.69.126:27788]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1518, in full_dispatch_request
+[Tue Nov 09 21:04:31.929923 2021] [wsgi:error] [pid 16267:tid 140471627314944] [remote 172.69.69.126:27788]     rv = self.handle_user_exception(e)
+[Tue Nov 09 21:04:31.929926 2021] [wsgi:error] [pid 16267:tid 140471627314944] [remote 172.69.69.126:27788]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1516, in full_dispatch_request
+[Tue Nov 09 21:04:31.929930 2021] [wsgi:error] [pid 16267:tid 140471627314944] [remote 172.69.69.126:27788]     rv = self.dispatch_request()
+[Tue Nov 09 21:04:31.929934 2021] [wsgi:error] [pid 16267:tid 140471627314944] [remote 172.69.69.126:27788]   File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1502, in dispatch_request
+[Tue Nov 09 21:04:31.929937 2021] [wsgi:error] [pid 16267:tid 140471627314944] [remote 172.69.69.126:27788]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+[Tue Nov 09 21:04:31.929941 2021] [wsgi:error] [pid 16267:tid 140471627314944] [remote 172.69.69.126:27788]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 29, in log
+[Tue Nov 09 21:04:31.929945 2021] [wsgi:error] [pid 16267:tid 140471627314944] [remote 172.69.69.126:27788]     f.write(e.args[0])
+[Tue Nov 09 21:04:31.929948 2021] [wsgi:error] [pid 16267:tid 140471627314944] [remote 172.69.69.126:27788] TypeError: write() argument must be str, not int

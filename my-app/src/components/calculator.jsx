@@ -268,13 +268,15 @@ class Calculator extends React.Component {
       else numberOfMinersPerPanel[panel.name] = numberOfMinersTemp2;
 
       //recalculate splitters
-      if (splitters[panel.pdus[0].name])
+      if (splitters[panel.pdus[0].name]) {
+        console.log("Splitter magic zone");
         //if it was determined earlier that splitters could be used...
         splitters[panel.name + panel.pdus[0].name] =
           minerQty * plugQty -
           pdus.filter((p) => p.name === panel.pdus[0].name)[0].plugs.c13 *
             panel.pdus[0].count *
             numberOfPanels[panel.name];
+      }
     }
     return { numberOfPanels, numberOfMinersPerPanel };
   };
