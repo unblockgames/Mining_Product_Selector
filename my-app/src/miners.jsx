@@ -1,10 +1,10 @@
 const miners = [
-  {
-    name: "BitFury B8",
-    plugType: "C19",
-    plugQty: "2",
-    minerWatts: "6400",
-  },
+  // {
+  //   name: "BitFury B8",
+  //   plugType: "C19",
+  //   plugQty: "2",
+  //   minerWatts: "6400",
+  // },
 
   {
     name: "AntMiner D3",
@@ -72,14 +72,14 @@ const miners = [
     name: "AntMiner S9",
     plugType: "C13",
     plugQty: "1",
-    minerWatts: "1150",
+    minerWatts: "1350",
   },
 
   {
     name: "AntMiner S9 SE",
     plugType: "C13",
     plugQty: "1",
-    minerWatts: "1250",
+    minerWatts: "1800",
   },
 
   {
