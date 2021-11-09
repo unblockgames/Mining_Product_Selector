@@ -48,7 +48,7 @@ class Calculator extends React.Component {
 
   log = () => {
     var xhttp = new XMLHttpRequest();
-    xhttp.open("POST", "http://localhost:5000/log");
+    xhttp.open("POST", "http://calc.asicminingpanels.com/log");
     xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
     xhttp.send("data=" + JSON.stringify(this.state));
   };

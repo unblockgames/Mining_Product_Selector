@@ -392,3 +392,220 @@
 [Tue Nov 02 18:03:32.965066 2021] [wsgi:error] [pid 61333:tid 140181431228160] [remote 108.162.221.227:40084] Wrong world
 [Tue Nov 02 18:05:23.984581 2021] [wsgi:error] [pid 61333:tid 140181464798976] [remote 108.162.221.87:9518] Wrong world
 [Tue Nov 02 18:07:20.736494 2021] [wsgi:error] [pid 61333:tid 140181431228160] [remote 108.162.221.227:35648] Wrong world
+[Tue Nov 02 18:34:02.414080 2021] [wsgi:error] [pid 61580:tid 140181439620864] [remote 172.69.68.241:57442] Wrong world
+[Tue Nov 02 20:51:49.743292 2021] [wsgi:error] [pid 61580:tid 140181464798976] [remote 172.69.71.6:17412] Wrong world
+[Wed Nov 03 01:02:44.322999 2021] [wsgi:error] [pid 62402:tid 140181448013568] [remote 172.69.69.126:57766] Wrong world
+[Wed Nov 03 01:04:38.813902 2021] [wsgi:error] [pid 62402:tid 140181464798976] [remote 172.69.71.133:18044] Wrong world
+[Wed Nov 03 01:05:00.483149 2021] [wsgi:error] [pid 62402:tid 140181448013568] [remote 172.69.71.133:50864] Wrong world
+[Wed Nov 03 01:05:01.878238 2021] [wsgi:error] [pid 62402:tid 140181464798976] [remote 172.69.71.169:34618] Wrong world
+[Wed Nov 03 12:38:46.702160 2021] [wsgi:error] [pid 62402:tid 140181448013568] [remote 108.162.221.227:47588] Wrong world
+[Wed Nov 03 14:50:20.142370 2021] [wsgi:error] [pid 62402:tid 140181448013568] [remote 108.162.221.75:11876] Wrong world
+[Wed Nov 03 15:54:13.373939 2021] [wsgi:error] [pid 62402:tid 140181464798976] [remote 108.162.221.75:50646] Wrong world
+[Wed Nov 03 15:55:34.872726 2021] [wsgi:error] [pid 66170:tid 140136179001088] [remote 108.162.221.175:42454] Wrong world
+[Wed Nov 03 15:55:59.890502 2021] [wsgi:error] [pid 66170:tid 140136145430272] [remote 108.162.221.175:46642] Wrong world
+[Wed Nov 03 15:56:24.225381 2021] [wsgi:error] [pid 66170:tid 140136179001088] [remote 108.162.221.87:12544] Wrong world
+[Wed Nov 03 15:57:09.327972 2021] [wsgi:error] [pid 66170:tid 140136179001088] [remote 108.162.221.175:22106] Wrong world
+[Wed Nov 03 15:57:09.405488 2021] [wsgi:error] [pid 66170:tid 140136145430272] [remote 172.69.68.241:35106] Wrong world
+[Wed Nov 03 16:00:54.443631 2021] [wsgi:error] [pid 66170:tid 140136179001088] [remote 172.69.71.109:40070] Wrong world
+[Wed Nov 03 16:02:57.495456 2021] [wsgi:error] [pid 66170:tid 140136145430272] [remote 172.69.69.126:20220] Wrong world
+[Wed Nov 03 16:03:10.612632 2021] [wsgi:error] [pid 66170:tid 140136179001088] [remote 172.69.71.6:26926] Wrong world
+[Wed Nov 03 16:04:11.516851 2021] [wsgi:error] [pid 66170:tid 140136145430272] [remote 108.162.221.87:45796] Wrong world
+[Wed Nov 03 16:05:28.781565 2021] [wsgi:error] [pid 66170:tid 140136179001088] [remote 172.69.68.241:27580] Wrong world
+[Wed Nov 03 16:36:56.329488 2021] [wsgi:error] [pid 66510:tid 140267078137600] [remote 108.162.221.227:16028] Wrong world
+[Wed Nov 03 16:39:06.802662 2021] [wsgi:error] [pid 66510:tid 140267094923008] [remote 108.162.221.227:31644] Wrong world
+[Wed Nov 03 16:39:21.380315 2021] [wsgi:error] [pid 66510:tid 140267078137600] [remote 162.158.126.151:30892] Wrong world
+[Wed Nov 03 16:39:21.799280 2021] [wsgi:error] [pid 66510:tid 140267094923008] [remote 108.162.229.193:18374] Wrong world
+[Wed Nov 03 16:40:25.423430 2021] [wsgi:error] [pid 66510:tid 140267078137600] [remote 141.101.68.65:11918] Wrong world
+[Wed Nov 03 16:40:25.758601 2021] [wsgi:error] [pid 66510:tid 140267094923008] [remote 141.101.69.84:22278] Wrong world
+[Wed Nov 03 16:42:38.072101 2021] [wsgi:error] [pid 66510:tid 140267078137600] [remote 162.158.146.233:17848] Wrong world
+[Wed Nov 03 16:52:35.766704 2021] [wsgi:error] [pid 66510:tid 140267094923008] [remote 108.162.221.75:43942] Wrong world
+[Wed Nov 03 16:52:46.523362 2021] [wsgi:error] [pid 66510:tid 140267094923008] [remote 108.162.221.75:37888] Wrong world
+[Wed Nov 03 16:53:24.221432 2021] [wsgi:error] [pid 66510:tid 140267078137600] [remote 172.69.71.133:15370] Wrong world
+[Wed Nov 03 16:53:35.031334 2021] [wsgi:error] [pid 66510:tid 140267094923008] [remote 108.162.221.87:40288] Wrong world
+[Wed Nov 03 16:54:42.207065 2021] [wsgi:error] [pid 66510:tid 140267078137600] [remote 172.69.71.169:65056] Wrong world
+[Wed Nov 03 16:54:52.023170 2021] [wsgi:error] [pid 66510:tid 140267094923008] [remote 172.68.238.145:22202] Wrong world
+[Wed Nov 03 17:41:25.585607 2021] [wsgi:error] [pid 66510:tid 140267078137600] [remote 162.158.91.28:20286] Wrong world
+[Wed Nov 03 17:41:25.892917 2021] [wsgi:error] [pid 66510:tid 140267094923008] [remote 172.70.134.121:13928] Wrong world
+[Wed Nov 03 17:52:02.538473 2021] [wsgi:error] [pid 66510:tid 140267078137600] [remote 108.162.221.175:42706] Wrong world
+[Wed Nov 03 18:10:29.032960 2021] [wsgi:error] [pid 66510:tid 140267094923008] [remote 172.68.239.210:30086] Wrong world
+[Wed Nov 03 20:00:26.073263 2021] [wsgi:error] [pid 66510:tid 140267078137600] [remote 108.162.221.175:24750] Wrong world
+[Thu Nov 04 01:52:45.952536 2021] [wsgi:error] [pid 67544:tid 140267094923008] [remote 108.162.221.123:20782] Wrong world
+[Thu Nov 04 13:24:30.838902 2021] [wsgi:error] [pid 67544:tid 140267061352192] [remote 108.162.221.87:63634] Wrong world
+[Thu Nov 04 22:29:27.796733 2021] [wsgi:error] [pid 67544:tid 140267061352192] [remote 108.162.221.75:47814] Wrong world
+[Fri Nov 05 19:14:14.495707 2021] [wsgi:error] [pid 72395:tid 140267078137600] [remote 108.162.221.87:15360] Wrong world
+[Sat Nov 06 10:55:55.034528 2021] [wsgi:error] [pid 690:tid 139744177121024] [remote 172.69.71.95:64630] Wrong world
+[Sat Nov 06 10:56:37.598190 2021] [wsgi:error] [pid 690:tid 139744143550208] [remote 172.69.63.140:20704] Wrong world
+[Sat Nov 06 10:56:37.725851 2021] [wsgi:error] [pid 690:tid 139744177121024] [remote 172.69.62.104:63002] Wrong world
+[Sat Nov 06 10:57:20.220182 2021] [wsgi:error] [pid 690:tid 139744143550208] [remote 172.68.239.214:33392] Wrong world
+[Sat Nov 06 10:58:02.088960 2021] [wsgi:error] [pid 690:tid 139744177121024] [remote 108.162.221.123:40028] Wrong world
+[Sat Nov 06 11:32:00.427765 2021] [wsgi:error] [pid 690:tid 139744143550208] [remote 172.69.71.169:60934] Wrong world
+[Sat Nov 06 14:27:52.926021 2021] [wsgi:error] [pid 690:tid 139744177121024] [remote 172.69.71.6:20464] Wrong world
+[Sat Nov 06 18:38:47.671019 2021] [wsgi:error] [pid 690:tid 139744143550208] [remote 172.69.69.126:52828] Wrong world
+[Sat Nov 06 19:36:07.649044 2021] [wsgi:error] [pid 690:tid 139744177121024] [remote 172.69.71.6:46308] Wrong world
+[Mon Nov 08 13:38:36.259228 2021] [wsgi:error] [pid 6784:tid 139744168728320] [remote 162.158.74.206:27466] Wrong world
+[Mon Nov 08 23:49:53.114042 2021] [wsgi:error] [pid 537:tid 140369205208832] [remote 172.70.110.125:43982] mod_wsgi (pid=537): Failed to exec Python script file '/var/www/Mining_Product_Selector/app.wsgi'.
+[Mon Nov 08 23:49:53.128185 2021] [wsgi:error] [pid 537:tid 140369205208832] [remote 172.70.110.125:43982] mod_wsgi (pid=537): Exception occurred processing WSGI script '/var/www/Mining_Product_Selector/app.wsgi'.
+[Mon Nov 08 23:49:53.188378 2021] [wsgi:error] [pid 537:tid 140369205208832] [remote 172.70.110.125:43982] Traceback (most recent call last):
+[Mon Nov 08 23:49:53.188423 2021] [wsgi:error] [pid 537:tid 140369205208832] [remote 172.70.110.125:43982]   File "/var/www/Mining_Product_Selector/app.wsgi", line 1, in <module>
+[Mon Nov 08 23:49:53.188442 2021] [wsgi:error] [pid 537:tid 140369205208832] [remote 172.70.110.125:43982]     from Mining_Product_Selector import app as application
+[Mon Nov 08 23:49:53.188462 2021] [wsgi:error] [pid 537:tid 140369205208832] [remote 172.70.110.125:43982] ModuleNotFoundError: No module named 'Mining_Product_Selector'
+[Mon Nov 08 23:49:53.534951 2021] [wsgi:error] [pid 537:tid 140369171638016] [remote 172.70.110.45:38128] mod_wsgi (pid=537): Failed to exec Python script file '/var/www/Mining_Product_Selector/app.wsgi'.
+[Mon Nov 08 23:49:53.535001 2021] [wsgi:error] [pid 537:tid 140369171638016] [remote 172.70.110.45:38128] mod_wsgi (pid=537): Exception occurred processing WSGI script '/var/www/Mining_Product_Selector/app.wsgi'.
+[Mon Nov 08 23:49:53.535098 2021] [wsgi:error] [pid 537:tid 140369171638016] [remote 172.70.110.45:38128] Traceback (most recent call last):
+[Mon Nov 08 23:49:53.535127 2021] [wsgi:error] [pid 537:tid 140369171638016] [remote 172.70.110.45:38128]   File "/var/www/Mining_Product_Selector/app.wsgi", line 1, in <module>
+[Mon Nov 08 23:49:53.535134 2021] [wsgi:error] [pid 537:tid 140369171638016] [remote 172.70.110.45:38128]     from Mining_Product_Selector import app as application
+[Mon Nov 08 23:49:53.535151 2021] [wsgi:error] [pid 537:tid 140369171638016] [remote 172.70.110.45:38128] ModuleNotFoundError: No module named 'Mining_Product_Selector'
+[Mon Nov 08 23:49:56.324589 2021] [wsgi:error] [pid 537:tid 140369205208832] [remote 172.70.110.125:49146] mod_wsgi (pid=537): Failed to exec Python script file '/var/www/Mining_Product_Selector/app.wsgi'.
+[Mon Nov 08 23:49:56.332428 2021] [wsgi:error] [pid 537:tid 140369205208832] [remote 172.70.110.125:49146] mod_wsgi (pid=537): Exception occurred processing WSGI script '/var/www/Mining_Product_Selector/app.wsgi'.
+[Mon Nov 08 23:49:56.332566 2021] [wsgi:error] [pid 537:tid 140369205208832] [remote 172.70.110.125:49146] Traceback (most recent call last):
+[Mon Nov 08 23:49:56.332593 2021] [wsgi:error] [pid 537:tid 140369205208832] [remote 172.70.110.125:49146]   File "/var/www/Mining_Product_Selector/app.wsgi", line 1, in <module>
+[Mon Nov 08 23:49:56.332599 2021] [wsgi:error] [pid 537:tid 140369205208832] [remote 172.70.110.125:49146]     from Mining_Product_Selector import app as application
+[Mon Nov 08 23:49:56.332616 2021] [wsgi:error] [pid 537:tid 140369205208832] [remote 172.70.110.125:49146] ModuleNotFoundError: No module named 'Mining_Product_Selector'
+[Mon Nov 08 23:49:56.637136 2021] [wsgi:error] [pid 537:tid 140369171638016] [remote 172.70.110.45:43228] mod_wsgi (pid=537): Failed to exec Python script file '/var/www/Mining_Product_Selector/app.wsgi'.
+[Mon Nov 08 23:49:56.637177 2021] [wsgi:error] [pid 537:tid 140369171638016] [remote 172.70.110.45:43228] mod_wsgi (pid=537): Exception occurred processing WSGI script '/var/www/Mining_Product_Selector/app.wsgi'.
+[Mon Nov 08 23:49:56.637249 2021] [wsgi:error] [pid 537:tid 140369171638016] [remote 172.70.110.45:43228] Traceback (most recent call last):
+[Mon Nov 08 23:49:56.637272 2021] [wsgi:error] [pid 537:tid 140369171638016] [remote 172.70.110.45:43228]   File "/var/www/Mining_Product_Selector/app.wsgi", line 1, in <module>
+[Mon Nov 08 23:49:56.637278 2021] [wsgi:error] [pid 537:tid 140369171638016] [remote 172.70.110.45:43228]     from Mining_Product_Selector import app as application
+[Mon Nov 08 23:49:56.637293 2021] [wsgi:error] [pid 537:tid 140369171638016] [remote 172.70.110.45:43228] ModuleNotFoundError: No module named 'Mining_Product_Selector'
+[Mon Nov 08 23:51:12.572269 2021] [wsgi:error] [pid 537:tid 140369205208832] [remote 172.70.110.125:61754] mod_wsgi (pid=537): Failed to exec Python script file '/var/www/Mining_Product_Selector/app.wsgi'.
+[Mon Nov 08 23:51:12.586580 2021] [wsgi:error] [pid 537:tid 140369205208832] [remote 172.70.110.125:61754] mod_wsgi (pid=537): Exception occurred processing WSGI script '/var/www/Mining_Product_Selector/app.wsgi'.
+[Mon Nov 08 23:51:12.586705 2021] [wsgi:error] [pid 537:tid 140369205208832] [remote 172.70.110.125:61754] Traceback (most recent call last):
+[Mon Nov 08 23:51:12.586745 2021] [wsgi:error] [pid 537:tid 140369205208832] [remote 172.70.110.125:61754]   File "/var/www/Mining_Product_Selector/app.wsgi", line 1, in <module>
+[Mon Nov 08 23:51:12.586752 2021] [wsgi:error] [pid 537:tid 140369205208832] [remote 172.70.110.125:61754]     from Mining_Product_Selector import app as application
+[Mon Nov 08 23:51:12.586770 2021] [wsgi:error] [pid 537:tid 140369205208832] [remote 172.70.110.125:61754] ModuleNotFoundError: No module named 'Mining_Product_Selector'
+[Mon Nov 08 23:51:12.600537 2021] [wsgi:error] [pid 537:tid 140369180030720] [remote 108.162.237.195:22626] mod_wsgi (pid=537): Failed to exec Python script file '/var/www/Mining_Product_Selector/app.wsgi'.
+[Mon Nov 08 23:51:12.600572 2021] [wsgi:error] [pid 537:tid 140369180030720] [remote 108.162.237.195:22626] mod_wsgi (pid=537): Exception occurred processing WSGI script '/var/www/Mining_Product_Selector/app.wsgi'.
+[Mon Nov 08 23:51:12.600626 2021] [wsgi:error] [pid 537:tid 140369180030720] [remote 108.162.237.195:22626] Traceback (most recent call last):
+[Mon Nov 08 23:51:12.600654 2021] [wsgi:error] [pid 537:tid 140369180030720] [remote 108.162.237.195:22626]   File "/var/www/Mining_Product_Selector/app.wsgi", line 1, in <module>
+[Mon Nov 08 23:51:12.600659 2021] [wsgi:error] [pid 537:tid 140369180030720] [remote 108.162.237.195:22626]     from Mining_Product_Selector import app as application
+[Mon Nov 08 23:51:12.600674 2021] [wsgi:error] [pid 537:tid 140369180030720] [remote 108.162.237.195:22626] ModuleNotFoundError: No module named 'Mining_Product_Selector'
+[Mon Nov 08 23:51:12.601056 2021] [wsgi:error] [pid 537:tid 140369171638016] [remote 108.162.237.69:60432] mod_wsgi (pid=537): Failed to exec Python script file '/var/www/Mining_Product_Selector/app.wsgi'.
+[Mon Nov 08 23:51:12.601081 2021] [wsgi:error] [pid 537:tid 140369171638016] [remote 108.162.237.69:60432] mod_wsgi (pid=537): Exception occurred processing WSGI script '/var/www/Mining_Product_Selector/app.wsgi'.
+[Mon Nov 08 23:51:12.601129 2021] [wsgi:error] [pid 537:tid 140369171638016] [remote 108.162.237.69:60432] Traceback (most recent call last):
+[Mon Nov 08 23:51:12.601149 2021] [wsgi:error] [pid 537:tid 140369171638016] [remote 108.162.237.69:60432]   File "/var/www/Mining_Product_Selector/app.wsgi", line 1, in <module>
+[Mon Nov 08 23:51:12.601154 2021] [wsgi:error] [pid 537:tid 140369171638016] [remote 108.162.237.69:60432]     from Mining_Product_Selector import app as application
+[Mon Nov 08 23:51:12.601182 2021] [wsgi:error] [pid 537:tid 140369171638016] [remote 108.162.237.69:60432] ModuleNotFoundError: No module named 'Mining_Product_Selector'
+[Mon Nov 08 23:57:06.921430 2021] [wsgi:error] [pid 537:tid 140285035149056] [remote 108.162.238.66:29896] mod_wsgi (pid=537): Failed to exec Python script file '/var/www/Mining_Product_Selector/app.wsgi'.
+[Mon Nov 08 23:57:06.931891 2021] [wsgi:error] [pid 537:tid 140285035149056] [remote 108.162.238.66:29896] mod_wsgi (pid=537): Exception occurred processing WSGI script '/var/www/Mining_Product_Selector/app.wsgi'.
+[Mon Nov 08 23:57:06.992157 2021] [wsgi:error] [pid 537:tid 140285035149056] [remote 108.162.238.66:29896] Traceback (most recent call last):
+[Mon Nov 08 23:57:06.992200 2021] [wsgi:error] [pid 537:tid 140285035149056] [remote 108.162.238.66:29896]   File "/var/www/Mining_Product_Selector/app.wsgi", line 1, in <module>
+[Mon Nov 08 23:57:06.992207 2021] [wsgi:error] [pid 537:tid 140285035149056] [remote 108.162.238.66:29896]     from Mining_Product_Selector import app as application
+[Mon Nov 08 23:57:06.992225 2021] [wsgi:error] [pid 537:tid 140285035149056] [remote 108.162.238.66:29896] ModuleNotFoundError: No module named 'Mining_Product_Selector'
+[Mon Nov 08 23:57:07.443701 2021] [wsgi:error] [pid 537:tid 140285001578240] [remote 172.70.34.95:62304] mod_wsgi (pid=537): Failed to exec Python script file '/var/www/Mining_Product_Selector/app.wsgi'.
+[Mon Nov 08 23:57:07.443836 2021] [wsgi:error] [pid 537:tid 140285001578240] [remote 172.70.34.95:62304] mod_wsgi (pid=537): Exception occurred processing WSGI script '/var/www/Mining_Product_Selector/app.wsgi'.
+[Mon Nov 08 23:57:07.443939 2021] [wsgi:error] [pid 537:tid 140285001578240] [remote 172.70.34.95:62304] Traceback (most recent call last):
+[Mon Nov 08 23:57:07.443970 2021] [wsgi:error] [pid 537:tid 140285001578240] [remote 172.70.34.95:62304]   File "/var/www/Mining_Product_Selector/app.wsgi", line 1, in <module>
+[Mon Nov 08 23:57:07.443975 2021] [wsgi:error] [pid 537:tid 140285001578240] [remote 172.70.34.95:62304]     from Mining_Product_Selector import app as application
+[Mon Nov 08 23:57:07.443992 2021] [wsgi:error] [pid 537:tid 140285001578240] [remote 172.70.34.95:62304] ModuleNotFoundError: No module named 'Mining_Product_Selector'
+[Mon Nov 08 23:57:09.302685 2021] [wsgi:error] [pid 537:tid 140285035149056] [remote 108.162.238.66:38028] mod_wsgi (pid=537): Failed to exec Python script file '/var/www/Mining_Product_Selector/app.wsgi'.
+[Mon Nov 08 23:57:09.339752 2021] [wsgi:error] [pid 537:tid 140285035149056] [remote 108.162.238.66:38028] mod_wsgi (pid=537): Exception occurred processing WSGI script '/var/www/Mining_Product_Selector/app.wsgi'.
+[Mon Nov 08 23:57:09.339892 2021] [wsgi:error] [pid 537:tid 140285035149056] [remote 108.162.238.66:38028] Traceback (most recent call last):
+[Mon Nov 08 23:57:09.339924 2021] [wsgi:error] [pid 537:tid 140285035149056] [remote 108.162.238.66:38028]   File "/var/www/Mining_Product_Selector/app.wsgi", line 1, in <module>
+[Mon Nov 08 23:57:09.339931 2021] [wsgi:error] [pid 537:tid 140285035149056] [remote 108.162.238.66:38028]     from Mining_Product_Selector import app as application
+[Mon Nov 08 23:57:09.339950 2021] [wsgi:error] [pid 537:tid 140285035149056] [remote 108.162.238.66:38028] ModuleNotFoundError: No module named 'Mining_Product_Selector'
+[Mon Nov 08 23:57:09.619165 2021] [wsgi:error] [pid 537:tid 140285001578240] [remote 108.162.238.94:11764] mod_wsgi (pid=537): Failed to exec Python script file '/var/www/Mining_Product_Selector/app.wsgi'.
+[Mon Nov 08 23:57:09.619208 2021] [wsgi:error] [pid 537:tid 140285001578240] [remote 108.162.238.94:11764] mod_wsgi (pid=537): Exception occurred processing WSGI script '/var/www/Mining_Product_Selector/app.wsgi'.
+[Mon Nov 08 23:57:09.619355 2021] [wsgi:error] [pid 537:tid 140285001578240] [remote 108.162.238.94:11764] Traceback (most recent call last):
+[Mon Nov 08 23:57:09.619384 2021] [wsgi:error] [pid 537:tid 140285001578240] [remote 108.162.238.94:11764]   File "/var/www/Mining_Product_Selector/app.wsgi", line 1, in <module>
+[Mon Nov 08 23:57:09.619391 2021] [wsgi:error] [pid 537:tid 140285001578240] [remote 108.162.238.94:11764]     from Mining_Product_Selector import app as application
+[Mon Nov 08 23:57:09.619408 2021] [wsgi:error] [pid 537:tid 140285001578240] [remote 108.162.238.94:11764] ModuleNotFoundError: No module named 'Mining_Product_Selector'
+[Tue Nov 09 00:02:31.883299 2021] [wsgi:error] [pid 1520:tid 140080129824512] [remote 108.162.237.17:19968] mod_wsgi (pid=1520): Failed to exec Python script file '/var/www/Mining_Product_Selector/app.wsgi'.
+[Tue Nov 09 00:02:31.883381 2021] [wsgi:error] [pid 1520:tid 140080129824512] [remote 108.162.237.17:19968] mod_wsgi (pid=1520): Exception occurred processing WSGI script '/var/www/Mining_Product_Selector/app.wsgi'.
+[Tue Nov 09 00:02:31.890995 2021] [wsgi:error] [pid 1520:tid 140080129824512] [remote 108.162.237.17:19968] Traceback (most recent call last):
+[Tue Nov 09 00:02:31.891028 2021] [wsgi:error] [pid 1520:tid 140080129824512] [remote 108.162.237.17:19968]   File "/var/www/Mining_Product_Selector/app.wsgi", line 6, in <module>
+[Tue Nov 09 00:02:31.891035 2021] [wsgi:error] [pid 1520:tid 140080129824512] [remote 108.162.237.17:19968]     with open(activate_this) as file_:
+[Tue Nov 09 00:02:31.891053 2021] [wsgi:error] [pid 1520:tid 140080129824512] [remote 108.162.237.17:19968] PermissionError: [Errno 13] Permission denied: '/home/ubuntu/.local/share/virtualenvs/Mining_Product_Selector-QqxnllWR/bin/activate_this.py'
+[Tue Nov 09 00:02:32.351593 2021] [wsgi:error] [pid 1520:tid 140080096253696] [remote 108.162.238.94:49306] mod_wsgi (pid=1520): Failed to exec Python script file '/var/www/Mining_Product_Selector/app.wsgi'.
+[Tue Nov 09 00:02:32.351658 2021] [wsgi:error] [pid 1520:tid 140080096253696] [remote 108.162.238.94:49306] mod_wsgi (pid=1520): Exception occurred processing WSGI script '/var/www/Mining_Product_Selector/app.wsgi'.
+[Tue Nov 09 00:02:32.351775 2021] [wsgi:error] [pid 1520:tid 140080096253696] [remote 108.162.238.94:49306] Traceback (most recent call last):
+[Tue Nov 09 00:02:32.351804 2021] [wsgi:error] [pid 1520:tid 140080096253696] [remote 108.162.238.94:49306]   File "/var/www/Mining_Product_Selector/app.wsgi", line 6, in <module>
+[Tue Nov 09 00:02:32.351810 2021] [wsgi:error] [pid 1520:tid 140080096253696] [remote 108.162.238.94:49306]     with open(activate_this) as file_:
+[Tue Nov 09 00:02:32.351827 2021] [wsgi:error] [pid 1520:tid 140080096253696] [remote 108.162.238.94:49306] PermissionError: [Errno 13] Permission denied: '/home/ubuntu/.local/share/virtualenvs/Mining_Product_Selector-QqxnllWR/bin/activate_this.py'
+[Tue Nov 09 00:02:34.466454 2021] [wsgi:error] [pid 1520:tid 140080129824512] [remote 108.162.237.17:52670] mod_wsgi (pid=1520): Failed to exec Python script file '/var/www/Mining_Product_Selector/app.wsgi'.
+[Tue Nov 09 00:02:34.466516 2021] [wsgi:error] [pid 1520:tid 140080129824512] [remote 108.162.237.17:52670] mod_wsgi (pid=1520): Exception occurred processing WSGI script '/var/www/Mining_Product_Selector/app.wsgi'.
+[Tue Nov 09 00:02:34.466609 2021] [wsgi:error] [pid 1520:tid 140080129824512] [remote 108.162.237.17:52670] Traceback (most recent call last):
+[Tue Nov 09 00:02:34.466637 2021] [wsgi:error] [pid 1520:tid 140080129824512] [remote 108.162.237.17:52670]   File "/var/www/Mining_Product_Selector/app.wsgi", line 6, in <module>
+[Tue Nov 09 00:02:34.466642 2021] [wsgi:error] [pid 1520:tid 140080129824512] [remote 108.162.237.17:52670]     with open(activate_this) as file_:
+[Tue Nov 09 00:02:34.466660 2021] [wsgi:error] [pid 1520:tid 140080129824512] [remote 108.162.237.17:52670] PermissionError: [Errno 13] Permission denied: '/home/ubuntu/.local/share/virtualenvs/Mining_Product_Selector-QqxnllWR/bin/activate_this.py'
+[Tue Nov 09 00:02:34.671286 2021] [wsgi:error] [pid 1520:tid 140080096253696] [remote 108.162.238.94:59216] mod_wsgi (pid=1520): Failed to exec Python script file '/var/www/Mining_Product_Selector/app.wsgi'.
+[Tue Nov 09 00:02:34.671319 2021] [wsgi:error] [pid 1520:tid 140080096253696] [remote 108.162.238.94:59216] mod_wsgi (pid=1520): Exception occurred processing WSGI script '/var/www/Mining_Product_Selector/app.wsgi'.
+[Tue Nov 09 00:02:34.671390 2021] [wsgi:error] [pid 1520:tid 140080096253696] [remote 108.162.238.94:59216] Traceback (most recent call last):
+[Tue Nov 09 00:02:34.671415 2021] [wsgi:error] [pid 1520:tid 140080096253696] [remote 108.162.238.94:59216]   File "/var/www/Mining_Product_Selector/app.wsgi", line 6, in <module>
+[Tue Nov 09 00:02:34.671420 2021] [wsgi:error] [pid 1520:tid 140080096253696] [remote 108.162.238.94:59216]     with open(activate_this) as file_:
+[Tue Nov 09 00:02:34.671435 2021] [wsgi:error] [pid 1520:tid 140080096253696] [remote 108.162.238.94:59216] PermissionError: [Errno 13] Permission denied: '/home/ubuntu/.local/share/virtualenvs/Mining_Product_Selector-QqxnllWR/bin/activate_this.py'
+[Tue Nov 09 00:02:36.766097 2021] [wsgi:error] [pid 1520:tid 140080129824512] [remote 108.162.237.17:22606] mod_wsgi (pid=1520): Failed to exec Python script file '/var/www/Mining_Product_Selector/app.wsgi'.
+[Tue Nov 09 00:02:36.766143 2021] [wsgi:error] [pid 1520:tid 140080129824512] [remote 108.162.237.17:22606] mod_wsgi (pid=1520): Exception occurred processing WSGI script '/var/www/Mining_Product_Selector/app.wsgi'.
+[Tue Nov 09 00:02:36.766246 2021] [wsgi:error] [pid 1520:tid 140080129824512] [remote 108.162.237.17:22606] Traceback (most recent call last):
+[Tue Nov 09 00:02:36.766272 2021] [wsgi:error] [pid 1520:tid 140080129824512] [remote 108.162.237.17:22606]   File "/var/www/Mining_Product_Selector/app.wsgi", line 6, in <module>
+[Tue Nov 09 00:02:36.766289 2021] [wsgi:error] [pid 1520:tid 140080129824512] [remote 108.162.237.17:22606]     with open(activate_this) as file_:
+[Tue Nov 09 00:02:36.766307 2021] [wsgi:error] [pid 1520:tid 140080129824512] [remote 108.162.237.17:22606] PermissionError: [Errno 13] Permission denied: '/home/ubuntu/.local/share/virtualenvs/Mining_Product_Selector-QqxnllWR/bin/activate_this.py'
+[Tue Nov 09 00:02:36.963323 2021] [wsgi:error] [pid 1520:tid 140080096253696] [remote 108.162.238.94:10844] mod_wsgi (pid=1520): Failed to exec Python script file '/var/www/Mining_Product_Selector/app.wsgi'.
+[Tue Nov 09 00:02:36.963354 2021] [wsgi:error] [pid 1520:tid 140080096253696] [remote 108.162.238.94:10844] mod_wsgi (pid=1520): Exception occurred processing WSGI script '/var/www/Mining_Product_Selector/app.wsgi'.
+[Tue Nov 09 00:02:36.963424 2021] [wsgi:error] [pid 1520:tid 140080096253696] [remote 108.162.238.94:10844] Traceback (most recent call last):
+[Tue Nov 09 00:02:36.963449 2021] [wsgi:error] [pid 1520:tid 140080096253696] [remote 108.162.238.94:10844]   File "/var/www/Mining_Product_Selector/app.wsgi", line 6, in <module>
+[Tue Nov 09 00:02:36.963454 2021] [wsgi:error] [pid 1520:tid 140080096253696] [remote 108.162.238.94:10844]     with open(activate_this) as file_:
+[Tue Nov 09 00:02:36.963470 2021] [wsgi:error] [pid 1520:tid 140080096253696] [remote 108.162.238.94:10844] PermissionError: [Errno 13] Permission denied: '/home/ubuntu/.local/share/virtualenvs/Mining_Product_Selector-QqxnllWR/bin/activate_this.py'
+[Tue Nov 09 00:03:45.043191 2021] [wsgi:error] [pid 1681:tid 139781862979328] [remote 108.162.237.17:24180] mod_wsgi (pid=1681): Failed to exec Python script file '/var/www/Mining_Product_Selector/app.wsgi'.
+[Tue Nov 09 00:03:45.043266 2021] [wsgi:error] [pid 1681:tid 139781862979328] [remote 108.162.237.17:24180] mod_wsgi (pid=1681): Exception occurred processing WSGI script '/var/www/Mining_Product_Selector/app.wsgi'.
+[Tue Nov 09 00:03:45.048066 2021] [wsgi:error] [pid 1681:tid 139781862979328] [remote 108.162.237.17:24180] Traceback (most recent call last):
+[Tue Nov 09 00:03:45.048100 2021] [wsgi:error] [pid 1681:tid 139781862979328] [remote 108.162.237.17:24180]   File "/var/www/Mining_Product_Selector/app.wsgi", line 4, in <module>
+[Tue Nov 09 00:03:45.048106 2021] [wsgi:error] [pid 1681:tid 139781862979328] [remote 108.162.237.17:24180]     with open(activate_this) as file_:
+[Tue Nov 09 00:03:45.048122 2021] [wsgi:error] [pid 1681:tid 139781862979328] [remote 108.162.237.17:24180] NameError: name 'activate_this' is not defined
+[Tue Nov 09 00:03:45.402950 2021] [wsgi:error] [pid 1681:tid 139781829408512] [remote 108.162.238.94:26264] mod_wsgi (pid=1681): Failed to exec Python script file '/var/www/Mining_Product_Selector/app.wsgi'.
+[Tue Nov 09 00:03:45.402999 2021] [wsgi:error] [pid 1681:tid 139781829408512] [remote 108.162.238.94:26264] mod_wsgi (pid=1681): Exception occurred processing WSGI script '/var/www/Mining_Product_Selector/app.wsgi'.
+[Tue Nov 09 00:03:45.403103 2021] [wsgi:error] [pid 1681:tid 139781829408512] [remote 108.162.238.94:26264] Traceback (most recent call last):
+[Tue Nov 09 00:03:45.403134 2021] [wsgi:error] [pid 1681:tid 139781829408512] [remote 108.162.238.94:26264]   File "/var/www/Mining_Product_Selector/app.wsgi", line 4, in <module>
+[Tue Nov 09 00:03:45.403139 2021] [wsgi:error] [pid 1681:tid 139781829408512] [remote 108.162.238.94:26264]     with open(activate_this) as file_:
+[Tue Nov 09 00:03:45.403156 2021] [wsgi:error] [pid 1681:tid 139781829408512] [remote 108.162.238.94:26264] NameError: name 'activate_this' is not defined
+[Tue Nov 09 00:03:46.375857 2021] [wsgi:error] [pid 1681:tid 139781862979328] [remote 108.162.237.17:37874] mod_wsgi (pid=1681): Failed to exec Python script file '/var/www/Mining_Product_Selector/app.wsgi'.
+[Tue Nov 09 00:03:46.375907 2021] [wsgi:error] [pid 1681:tid 139781862979328] [remote 108.162.237.17:37874] mod_wsgi (pid=1681): Exception occurred processing WSGI script '/var/www/Mining_Product_Selector/app.wsgi'.
+[Tue Nov 09 00:03:46.376042 2021] [wsgi:error] [pid 1681:tid 139781862979328] [remote 108.162.237.17:37874] Traceback (most recent call last):
+[Tue Nov 09 00:03:46.376069 2021] [wsgi:error] [pid 1681:tid 139781862979328] [remote 108.162.237.17:37874]   File "/var/www/Mining_Product_Selector/app.wsgi", line 4, in <module>
+[Tue Nov 09 00:03:46.376075 2021] [wsgi:error] [pid 1681:tid 139781862979328] [remote 108.162.237.17:37874]     with open(activate_this) as file_:
+[Tue Nov 09 00:03:46.376092 2021] [wsgi:error] [pid 1681:tid 139781862979328] [remote 108.162.237.17:37874] NameError: name 'activate_this' is not defined
+[Tue Nov 09 00:03:46.572787 2021] [wsgi:error] [pid 1681:tid 139781829408512] [remote 108.162.238.94:29736] mod_wsgi (pid=1681): Failed to exec Python script file '/var/www/Mining_Product_Selector/app.wsgi'.
+[Tue Nov 09 00:03:46.572824 2021] [wsgi:error] [pid 1681:tid 139781829408512] [remote 108.162.238.94:29736] mod_wsgi (pid=1681): Exception occurred processing WSGI script '/var/www/Mining_Product_Selector/app.wsgi'.
+[Tue Nov 09 00:03:46.572964 2021] [wsgi:error] [pid 1681:tid 139781829408512] [remote 108.162.238.94:29736] Traceback (most recent call last):
+[Tue Nov 09 00:03:46.572991 2021] [wsgi:error] [pid 1681:tid 139781829408512] [remote 108.162.238.94:29736]   File "/var/www/Mining_Product_Selector/app.wsgi", line 4, in <module>
+[Tue Nov 09 00:03:46.572996 2021] [wsgi:error] [pid 1681:tid 139781829408512] [remote 108.162.238.94:29736]     with open(activate_this) as file_:
+[Tue Nov 09 00:03:46.573012 2021] [wsgi:error] [pid 1681:tid 139781829408512] [remote 108.162.238.94:29736] NameError: name 'activate_this' is not defined
+[Tue Nov 09 00:05:45.220042 2021] [wsgi:error] [pid 1916:tid 139974306453248] [remote 108.162.237.17:13230] mod_wsgi (pid=1916): Failed to exec Python script file '/var/www/Mining_Product_Selector/app.wsgi'.
+[Tue Nov 09 00:05:45.220106 2021] [wsgi:error] [pid 1916:tid 139974306453248] [remote 108.162.237.17:13230] mod_wsgi (pid=1916): Exception occurred processing WSGI script '/var/www/Mining_Product_Selector/app.wsgi'.
+[Tue Nov 09 00:05:45.220411 2021] [wsgi:error] [pid 1916:tid 139974306453248] [remote 108.162.237.17:13230] Traceback (most recent call last):
+[Tue Nov 09 00:05:45.220448 2021] [wsgi:error] [pid 1916:tid 139974306453248] [remote 108.162.237.17:13230]   File "/var/www/Mining_Product_Selector/app.wsgi", line 3, in <module>
+[Tue Nov 09 00:05:45.220456 2021] [wsgi:error] [pid 1916:tid 139974306453248] [remote 108.162.237.17:13230]     from Mining_Product_Selector import app as application
+[Tue Nov 09 00:05:45.220473 2021] [wsgi:error] [pid 1916:tid 139974306453248] [remote 108.162.237.17:13230]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/__init__.py", line 4, in <module>
+[Tue Nov 09 00:05:45.220478 2021] [wsgi:error] [pid 1916:tid 139974306453248] [remote 108.162.237.17:13230]     from Mining_Product_Selector import routes
+[Tue Nov 09 00:05:45.220486 2021] [wsgi:error] [pid 1916:tid 139974306453248] [remote 108.162.237.17:13230]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 3, in <module>
+[Tue Nov 09 00:05:45.220491 2021] [wsgi:error] [pid 1916:tid 139974306453248] [remote 108.162.237.17:13230]     import mysql.connector
+[Tue Nov 09 00:05:45.220508 2021] [wsgi:error] [pid 1916:tid 139974306453248] [remote 108.162.237.17:13230] ModuleNotFoundError: No module named 'mysql'
+[Tue Nov 09 00:05:45.621263 2021] [wsgi:error] [pid 1916:tid 139974272882432] [remote 108.162.238.94:31056] mod_wsgi (pid=1916): Failed to exec Python script file '/var/www/Mining_Product_Selector/app.wsgi'.
+[Tue Nov 09 00:05:45.621313 2021] [wsgi:error] [pid 1916:tid 139974272882432] [remote 108.162.238.94:31056] mod_wsgi (pid=1916): Exception occurred processing WSGI script '/var/www/Mining_Product_Selector/app.wsgi'.
+[Tue Nov 09 00:05:45.621399 2021] [wsgi:error] [pid 1916:tid 139974272882432] [remote 108.162.238.94:31056] Traceback (most recent call last):
+[Tue Nov 09 00:05:45.621431 2021] [wsgi:error] [pid 1916:tid 139974272882432] [remote 108.162.238.94:31056]   File "/var/www/Mining_Product_Selector/app.wsgi", line 3, in <module>
+[Tue Nov 09 00:05:45.621447 2021] [wsgi:error] [pid 1916:tid 139974272882432] [remote 108.162.238.94:31056]     from Mining_Product_Selector import app as application
+[Tue Nov 09 00:05:45.621455 2021] [wsgi:error] [pid 1916:tid 139974272882432] [remote 108.162.238.94:31056]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/__init__.py", line 4, in <module>
+[Tue Nov 09 00:05:45.621459 2021] [wsgi:error] [pid 1916:tid 139974272882432] [remote 108.162.238.94:31056]     from Mining_Product_Selector import routes
+[Tue Nov 09 00:05:45.621466 2021] [wsgi:error] [pid 1916:tid 139974272882432] [remote 108.162.238.94:31056]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 3, in <module>
+[Tue Nov 09 00:05:45.621470 2021] [wsgi:error] [pid 1916:tid 139974272882432] [remote 108.162.238.94:31056]     import mysql.connector
+[Tue Nov 09 00:05:45.621484 2021] [wsgi:error] [pid 1916:tid 139974272882432] [remote 108.162.238.94:31056] ModuleNotFoundError: No module named 'mysql'
+[Tue Nov 09 00:05:48.567616 2021] [wsgi:error] [pid 1916:tid 139974306453248] [remote 108.162.237.17:55258] mod_wsgi (pid=1916): Failed to exec Python script file '/var/www/Mining_Product_Selector/app.wsgi'.
+[Tue Nov 09 00:05:48.567661 2021] [wsgi:error] [pid 1916:tid 139974306453248] [remote 108.162.237.17:55258] mod_wsgi (pid=1916): Exception occurred processing WSGI script '/var/www/Mining_Product_Selector/app.wsgi'.
+[Tue Nov 09 00:05:48.567752 2021] [wsgi:error] [pid 1916:tid 139974306453248] [remote 108.162.237.17:55258] Traceback (most recent call last):
+[Tue Nov 09 00:05:48.567779 2021] [wsgi:error] [pid 1916:tid 139974306453248] [remote 108.162.237.17:55258]   File "/var/www/Mining_Product_Selector/app.wsgi", line 3, in <module>
+[Tue Nov 09 00:05:48.567784 2021] [wsgi:error] [pid 1916:tid 139974306453248] [remote 108.162.237.17:55258]     from Mining_Product_Selector import app as application
+[Tue Nov 09 00:05:48.567791 2021] [wsgi:error] [pid 1916:tid 139974306453248] [remote 108.162.237.17:55258]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/__init__.py", line 4, in <module>
+[Tue Nov 09 00:05:48.567796 2021] [wsgi:error] [pid 1916:tid 139974306453248] [remote 108.162.237.17:55258]     from Mining_Product_Selector import routes
+[Tue Nov 09 00:05:48.567802 2021] [wsgi:error] [pid 1916:tid 139974306453248] [remote 108.162.237.17:55258]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 3, in <module>
+[Tue Nov 09 00:05:48.567806 2021] [wsgi:error] [pid 1916:tid 139974306453248] [remote 108.162.237.17:55258]     import mysql.connector
+[Tue Nov 09 00:05:48.567820 2021] [wsgi:error] [pid 1916:tid 139974306453248] [remote 108.162.237.17:55258] ModuleNotFoundError: No module named 'mysql'
+[Tue Nov 09 00:05:48.769847 2021] [wsgi:error] [pid 1916:tid 139974272882432] [remote 108.162.238.94:46886] mod_wsgi (pid=1916): Failed to exec Python script file '/var/www/Mining_Product_Selector/app.wsgi'.
+[Tue Nov 09 00:05:48.769883 2021] [wsgi:error] [pid 1916:tid 139974272882432] [remote 108.162.238.94:46886] mod_wsgi (pid=1916): Exception occurred processing WSGI script '/var/www/Mining_Product_Selector/app.wsgi'.
+[Tue Nov 09 00:05:48.769964 2021] [wsgi:error] [pid 1916:tid 139974272882432] [remote 108.162.238.94:46886] Traceback (most recent call last):
+[Tue Nov 09 00:05:48.769993 2021] [wsgi:error] [pid 1916:tid 139974272882432] [remote 108.162.238.94:46886]   File "/var/www/Mining_Product_Selector/app.wsgi", line 3, in <module>
+[Tue Nov 09 00:05:48.769998 2021] [wsgi:error] [pid 1916:tid 139974272882432] [remote 108.162.238.94:46886]     from Mining_Product_Selector import app as application
+[Tue Nov 09 00:05:48.770006 2021] [wsgi:error] [pid 1916:tid 139974272882432] [remote 108.162.238.94:46886]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/__init__.py", line 4, in <module>
+[Tue Nov 09 00:05:48.770011 2021] [wsgi:error] [pid 1916:tid 139974272882432] [remote 108.162.238.94:46886]     from Mining_Product_Selector import routes
+[Tue Nov 09 00:05:48.770030 2021] [wsgi:error] [pid 1916:tid 139974272882432] [remote 108.162.238.94:46886]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 3, in <module>
+[Tue Nov 09 00:05:48.770035 2021] [wsgi:error] [pid 1916:tid 139974272882432] [remote 108.162.238.94:46886]     import mysql.connector
+[Tue Nov 09 00:05:48.770051 2021] [wsgi:error] [pid 1916:tid 139974272882432] [remote 108.162.238.94:46886] ModuleNotFoundError: No module named 'mysql'
