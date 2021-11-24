@@ -934,3 +934,213 @@
 [Tue Nov 09 21:04:31.929941 2021] [wsgi:error] [pid 16267:tid 140471627314944] [remote 172.69.69.126:27788]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 29, in log
 [Tue Nov 09 21:04:31.929945 2021] [wsgi:error] [pid 16267:tid 140471627314944] [remote 172.69.69.126:27788]     f.write(e.args[0])
 [Tue Nov 09 21:04:31.929948 2021] [wsgi:error] [pid 16267:tid 140471627314944] [remote 172.69.69.126:27788] TypeError: write() argument must be str, not int
+[Fri Nov 19 21:59:20.594466 2021] [wsgi:error] [pid 56312:tid 139672352270080] [remote 172.70.82.23:14002] mod_wsgi (pid=56312): Failed to exec Python script file '/var/www/Mining_Product_Selector/app.wsgi'.
+[Fri Nov 19 21:59:20.595289 2021] [wsgi:error] [pid 56312:tid 139672352270080] [remote 172.70.82.23:14002] mod_wsgi (pid=56312): Exception occurred processing WSGI script '/var/www/Mining_Product_Selector/app.wsgi'.
+[Fri Nov 19 21:59:20.595706 2021] [wsgi:error] [pid 56312:tid 139672352270080] [remote 172.70.82.23:14002] Traceback (most recent call last):
+[Fri Nov 19 21:59:20.595746 2021] [wsgi:error] [pid 56312:tid 139672352270080] [remote 172.70.82.23:14002]   File "/var/www/Mining_Product_Selector/app.wsgi", line 3, in <module>
+[Fri Nov 19 21:59:20.595753 2021] [wsgi:error] [pid 56312:tid 139672352270080] [remote 172.70.82.23:14002]     from Mining_Product_Selector import app as application
+[Fri Nov 19 21:59:20.595762 2021] [wsgi:error] [pid 56312:tid 139672352270080] [remote 172.70.82.23:14002]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/__init__.py", line 4, in <module>
+[Fri Nov 19 21:59:20.595768 2021] [wsgi:error] [pid 56312:tid 139672352270080] [remote 172.70.82.23:14002]     from Mining_Product_Selector import routes
+[Fri Nov 19 21:59:20.595775 2021] [wsgi:error] [pid 56312:tid 139672352270080] [remote 172.70.82.23:14002]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 6, in <module>
+[Fri Nov 19 21:59:20.595781 2021] [wsgi:error] [pid 56312:tid 139672352270080] [remote 172.70.82.23:14002]     from googleapiclient.discovery import build
+[Fri Nov 19 21:59:20.595797 2021] [wsgi:error] [pid 56312:tid 139672352270080] [remote 172.70.82.23:14002] ModuleNotFoundError: No module named 'googleapiclient'
+[Fri Nov 19 22:00:58.840109 2021] [wsgi:error] [pid 56312:tid 139672318699264] [remote 172.70.126.247:35082] mod_wsgi (pid=56312): Failed to exec Python script file '/var/www/Mining_Product_Selector/app.wsgi'.
+[Fri Nov 19 22:00:58.840187 2021] [wsgi:error] [pid 56312:tid 139672318699264] [remote 172.70.126.247:35082] mod_wsgi (pid=56312): Exception occurred processing WSGI script '/var/www/Mining_Product_Selector/app.wsgi'.
+[Fri Nov 19 22:00:58.840320 2021] [wsgi:error] [pid 56312:tid 139672318699264] [remote 172.70.126.247:35082] Traceback (most recent call last):
+[Fri Nov 19 22:00:58.840356 2021] [wsgi:error] [pid 56312:tid 139672318699264] [remote 172.70.126.247:35082]   File "/var/www/Mining_Product_Selector/app.wsgi", line 3, in <module>
+[Fri Nov 19 22:00:58.840362 2021] [wsgi:error] [pid 56312:tid 139672318699264] [remote 172.70.126.247:35082]     from Mining_Product_Selector import app as application
+[Fri Nov 19 22:00:58.840370 2021] [wsgi:error] [pid 56312:tid 139672318699264] [remote 172.70.126.247:35082]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/__init__.py", line 4, in <module>
+[Fri Nov 19 22:00:58.840374 2021] [wsgi:error] [pid 56312:tid 139672318699264] [remote 172.70.126.247:35082]     from Mining_Product_Selector import routes
+[Fri Nov 19 22:00:58.840380 2021] [wsgi:error] [pid 56312:tid 139672318699264] [remote 172.70.126.247:35082]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 6, in <module>
+[Fri Nov 19 22:00:58.840384 2021] [wsgi:error] [pid 56312:tid 139672318699264] [remote 172.70.126.247:35082]     from googleapiclient.discovery import build
+[Fri Nov 19 22:00:58.840401 2021] [wsgi:error] [pid 56312:tid 139672318699264] [remote 172.70.126.247:35082] ModuleNotFoundError: No module named 'googleapiclient'
+[Fri Nov 19 22:00:59.997643 2021] [wsgi:error] [pid 56312:tid 139672352270080] [remote 172.70.127.24:52332] mod_wsgi (pid=56312): Failed to exec Python script file '/var/www/Mining_Product_Selector/app.wsgi'.
+[Fri Nov 19 22:00:59.997692 2021] [wsgi:error] [pid 56312:tid 139672352270080] [remote 172.70.127.24:52332] mod_wsgi (pid=56312): Exception occurred processing WSGI script '/var/www/Mining_Product_Selector/app.wsgi'.
+[Fri Nov 19 22:00:59.997839 2021] [wsgi:error] [pid 56312:tid 139672352270080] [remote 172.70.127.24:52332] Traceback (most recent call last):
+[Fri Nov 19 22:00:59.997870 2021] [wsgi:error] [pid 56312:tid 139672352270080] [remote 172.70.127.24:52332]   File "/var/www/Mining_Product_Selector/app.wsgi", line 3, in <module>
+[Fri Nov 19 22:00:59.997876 2021] [wsgi:error] [pid 56312:tid 139672352270080] [remote 172.70.127.24:52332]     from Mining_Product_Selector import app as application
+[Fri Nov 19 22:00:59.997906 2021] [wsgi:error] [pid 56312:tid 139672352270080] [remote 172.70.127.24:52332]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/__init__.py", line 4, in <module>
+[Fri Nov 19 22:00:59.997911 2021] [wsgi:error] [pid 56312:tid 139672352270080] [remote 172.70.127.24:52332]     from Mining_Product_Selector import routes
+[Fri Nov 19 22:00:59.997919 2021] [wsgi:error] [pid 56312:tid 139672352270080] [remote 172.70.127.24:52332]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 6, in <module>
+[Fri Nov 19 22:00:59.997924 2021] [wsgi:error] [pid 56312:tid 139672352270080] [remote 172.70.127.24:52332]     from googleapiclient.discovery import build
+[Fri Nov 19 22:00:59.997941 2021] [wsgi:error] [pid 56312:tid 139672352270080] [remote 172.70.127.24:52332] ModuleNotFoundError: No module named 'googleapiclient'
+[Fri Nov 19 22:03:46.754619 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.126.247:30206] mod_wsgi (pid=56579): Failed to exec Python script file '/var/www/Mining_Product_Selector/app.wsgi'.
+[Fri Nov 19 22:03:46.755225 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.126.247:30206] mod_wsgi (pid=56579): Exception occurred processing WSGI script '/var/www/Mining_Product_Selector/app.wsgi'.
+[Fri Nov 19 22:03:46.755545 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.126.247:30206] Traceback (most recent call last):
+[Fri Nov 19 22:03:46.755578 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.126.247:30206]   File "/var/www/Mining_Product_Selector/app.wsgi", line 3, in <module>
+[Fri Nov 19 22:03:46.755584 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.126.247:30206]     from Mining_Product_Selector import app as application
+[Fri Nov 19 22:03:46.755603 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.126.247:30206]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/__init__.py", line 4, in <module>
+[Fri Nov 19 22:03:46.755607 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.126.247:30206]     from Mining_Product_Selector import routes
+[Fri Nov 19 22:03:46.755614 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.126.247:30206]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 7, in <module>
+[Fri Nov 19 22:03:46.755617 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.126.247:30206]     from google_auth_oauthlib.flow import InstalledAppFlow
+[Fri Nov 19 22:03:46.755632 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.126.247:30206] ModuleNotFoundError: No module named 'google_auth_oauthlib'
+[Fri Nov 19 22:03:47.172533 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.127.24:13382] mod_wsgi (pid=56579): Failed to exec Python script file '/var/www/Mining_Product_Selector/app.wsgi'.
+[Fri Nov 19 22:03:47.172586 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.127.24:13382] mod_wsgi (pid=56579): Exception occurred processing WSGI script '/var/www/Mining_Product_Selector/app.wsgi'.
+[Fri Nov 19 22:03:47.172681 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.127.24:13382] Traceback (most recent call last):
+[Fri Nov 19 22:03:47.172714 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.127.24:13382]   File "/var/www/Mining_Product_Selector/app.wsgi", line 3, in <module>
+[Fri Nov 19 22:03:47.172720 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.127.24:13382]     from Mining_Product_Selector import app as application
+[Fri Nov 19 22:03:47.172728 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.127.24:13382]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/__init__.py", line 4, in <module>
+[Fri Nov 19 22:03:47.172733 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.127.24:13382]     from Mining_Product_Selector import routes
+[Fri Nov 19 22:03:47.172740 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.127.24:13382]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 7, in <module>
+[Fri Nov 19 22:03:47.172745 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.127.24:13382]     from google_auth_oauthlib.flow import InstalledAppFlow
+[Fri Nov 19 22:03:47.172769 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.127.24:13382] ModuleNotFoundError: No module named 'google_auth_oauthlib'
+[Fri Nov 19 22:03:49.407561 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.126.247:34188] mod_wsgi (pid=56579): Failed to exec Python script file '/var/www/Mining_Product_Selector/app.wsgi'.
+[Fri Nov 19 22:03:49.407608 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.126.247:34188] mod_wsgi (pid=56579): Exception occurred processing WSGI script '/var/www/Mining_Product_Selector/app.wsgi'.
+[Fri Nov 19 22:03:49.407705 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.126.247:34188] Traceback (most recent call last):
+[Fri Nov 19 22:03:49.407736 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.126.247:34188]   File "/var/www/Mining_Product_Selector/app.wsgi", line 3, in <module>
+[Fri Nov 19 22:03:49.407742 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.126.247:34188]     from Mining_Product_Selector import app as application
+[Fri Nov 19 22:03:49.407750 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.126.247:34188]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/__init__.py", line 4, in <module>
+[Fri Nov 19 22:03:49.407755 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.126.247:34188]     from Mining_Product_Selector import routes
+[Fri Nov 19 22:03:49.407763 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.126.247:34188]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 7, in <module>
+[Fri Nov 19 22:03:49.407778 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.126.247:34188]     from google_auth_oauthlib.flow import InstalledAppFlow
+[Fri Nov 19 22:03:49.407797 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.126.247:34188] ModuleNotFoundError: No module named 'google_auth_oauthlib'
+[Fri Nov 19 22:03:52.151506 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.127.24:20700] mod_wsgi (pid=56579): Failed to exec Python script file '/var/www/Mining_Product_Selector/app.wsgi'.
+[Fri Nov 19 22:03:52.151565 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.127.24:20700] mod_wsgi (pid=56579): Exception occurred processing WSGI script '/var/www/Mining_Product_Selector/app.wsgi'.
+[Fri Nov 19 22:03:52.151666 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.127.24:20700] Traceback (most recent call last):
+[Fri Nov 19 22:03:52.151697 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.127.24:20700]   File "/var/www/Mining_Product_Selector/app.wsgi", line 3, in <module>
+[Fri Nov 19 22:03:52.151703 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.127.24:20700]     from Mining_Product_Selector import app as application
+[Fri Nov 19 22:03:52.151711 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.127.24:20700]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/__init__.py", line 4, in <module>
+[Fri Nov 19 22:03:52.151716 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.127.24:20700]     from Mining_Product_Selector import routes
+[Fri Nov 19 22:03:52.151722 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.127.24:20700]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 7, in <module>
+[Fri Nov 19 22:03:52.151727 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.127.24:20700]     from google_auth_oauthlib.flow import InstalledAppFlow
+[Fri Nov 19 22:03:52.151744 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.127.24:20700] ModuleNotFoundError: No module named 'google_auth_oauthlib'
+[Fri Nov 19 22:31:31.032058 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 108.162.215.101:43976] mod_wsgi (pid=56579): Failed to exec Python script file '/var/www/Mining_Product_Selector/app.wsgi'.
+[Fri Nov 19 22:31:31.032116 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 108.162.215.101:43976] mod_wsgi (pid=56579): Exception occurred processing WSGI script '/var/www/Mining_Product_Selector/app.wsgi'.
+[Fri Nov 19 22:31:31.032214 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 108.162.215.101:43976] Traceback (most recent call last):
+[Fri Nov 19 22:31:31.032245 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 108.162.215.101:43976]   File "/var/www/Mining_Product_Selector/app.wsgi", line 3, in <module>
+[Fri Nov 19 22:31:31.032251 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 108.162.215.101:43976]     from Mining_Product_Selector import app as application
+[Fri Nov 19 22:31:31.032259 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 108.162.215.101:43976]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/__init__.py", line 4, in <module>
+[Fri Nov 19 22:31:31.032264 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 108.162.215.101:43976]     from Mining_Product_Selector import routes
+[Fri Nov 19 22:31:31.032279 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 108.162.215.101:43976]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 7, in <module>
+[Fri Nov 19 22:31:31.032284 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 108.162.215.101:43976]     from google_auth_oauthlib.flow import InstalledAppFlow
+[Fri Nov 19 22:31:31.032301 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 108.162.215.101:43976] ModuleNotFoundError: No module named 'google_auth_oauthlib'
+[Fri Nov 19 22:31:31.499671 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 108.162.215.189:25892] mod_wsgi (pid=56579): Failed to exec Python script file '/var/www/Mining_Product_Selector/app.wsgi'.
+[Fri Nov 19 22:31:31.499716 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 108.162.215.189:25892] mod_wsgi (pid=56579): Exception occurred processing WSGI script '/var/www/Mining_Product_Selector/app.wsgi'.
+[Fri Nov 19 22:31:31.499813 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 108.162.215.189:25892] Traceback (most recent call last):
+[Fri Nov 19 22:31:31.499844 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 108.162.215.189:25892]   File "/var/www/Mining_Product_Selector/app.wsgi", line 3, in <module>
+[Fri Nov 19 22:31:31.499849 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 108.162.215.189:25892]     from Mining_Product_Selector import app as application
+[Fri Nov 19 22:31:31.499857 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 108.162.215.189:25892]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/__init__.py", line 4, in <module>
+[Fri Nov 19 22:31:31.499861 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 108.162.215.189:25892]     from Mining_Product_Selector import routes
+[Fri Nov 19 22:31:31.499868 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 108.162.215.189:25892]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 7, in <module>
+[Fri Nov 19 22:31:31.499873 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 108.162.215.189:25892]     from google_auth_oauthlib.flow import InstalledAppFlow
+[Fri Nov 19 22:31:31.499889 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 108.162.215.189:25892] ModuleNotFoundError: No module named 'google_auth_oauthlib'
+[Fri Nov 19 22:33:40.720537 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.35.62:49810] mod_wsgi (pid=56579): Failed to exec Python script file '/var/www/Mining_Product_Selector/app.wsgi'.
+[Fri Nov 19 22:33:40.720594 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.35.62:49810] mod_wsgi (pid=56579): Exception occurred processing WSGI script '/var/www/Mining_Product_Selector/app.wsgi'.
+[Fri Nov 19 22:33:40.720696 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.35.62:49810] Traceback (most recent call last):
+[Fri Nov 19 22:33:40.720728 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.35.62:49810]   File "/var/www/Mining_Product_Selector/app.wsgi", line 3, in <module>
+[Fri Nov 19 22:33:40.720735 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.35.62:49810]     from Mining_Product_Selector import app as application
+[Fri Nov 19 22:33:40.720743 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.35.62:49810]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/__init__.py", line 4, in <module>
+[Fri Nov 19 22:33:40.720748 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.35.62:49810]     from Mining_Product_Selector import routes
+[Fri Nov 19 22:33:40.720756 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.35.62:49810]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 7, in <module>
+[Fri Nov 19 22:33:40.720761 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.35.62:49810]     from google_auth_oauthlib.flow import InstalledAppFlow
+[Fri Nov 19 22:33:40.720779 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.35.62:49810] ModuleNotFoundError: No module named 'google_auth_oauthlib'
+[Fri Nov 19 22:34:10.027431 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.34.211:43366] mod_wsgi (pid=56579): Failed to exec Python script file '/var/www/Mining_Product_Selector/app.wsgi'.
+[Fri Nov 19 22:34:10.027480 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.34.211:43366] mod_wsgi (pid=56579): Exception occurred processing WSGI script '/var/www/Mining_Product_Selector/app.wsgi'.
+[Fri Nov 19 22:34:10.027589 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.34.211:43366] Traceback (most recent call last):
+[Fri Nov 19 22:34:10.027619 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.34.211:43366]   File "/var/www/Mining_Product_Selector/app.wsgi", line 3, in <module>
+[Fri Nov 19 22:34:10.027625 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.34.211:43366]     from Mining_Product_Selector import app as application
+[Fri Nov 19 22:34:10.027632 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.34.211:43366]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/__init__.py", line 4, in <module>
+[Fri Nov 19 22:34:10.027637 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.34.211:43366]     from Mining_Product_Selector import routes
+[Fri Nov 19 22:34:10.027644 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.34.211:43366]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 7, in <module>
+[Fri Nov 19 22:34:10.027648 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.34.211:43366]     from google_auth_oauthlib.flow import InstalledAppFlow
+[Fri Nov 19 22:34:10.027664 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.34.211:43366] ModuleNotFoundError: No module named 'google_auth_oauthlib'
+[Fri Nov 19 22:34:10.228003 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.34.25:23290] mod_wsgi (pid=56579): Failed to exec Python script file '/var/www/Mining_Product_Selector/app.wsgi'.
+[Fri Nov 19 22:34:10.228049 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.34.25:23290] mod_wsgi (pid=56579): Exception occurred processing WSGI script '/var/www/Mining_Product_Selector/app.wsgi'.
+[Fri Nov 19 22:34:10.228142 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.34.25:23290] Traceback (most recent call last):
+[Fri Nov 19 22:34:10.228171 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.34.25:23290]   File "/var/www/Mining_Product_Selector/app.wsgi", line 3, in <module>
+[Fri Nov 19 22:34:10.228176 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.34.25:23290]     from Mining_Product_Selector import app as application
+[Fri Nov 19 22:34:10.228184 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.34.25:23290]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/__init__.py", line 4, in <module>
+[Fri Nov 19 22:34:10.228189 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.34.25:23290]     from Mining_Product_Selector import routes
+[Fri Nov 19 22:34:10.228195 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.34.25:23290]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 7, in <module>
+[Fri Nov 19 22:34:10.228200 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.34.25:23290]     from google_auth_oauthlib.flow import InstalledAppFlow
+[Fri Nov 19 22:34:10.228215 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.34.25:23290] ModuleNotFoundError: No module named 'google_auth_oauthlib'
+[Fri Nov 19 22:34:10.322352 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.34.25:23428] mod_wsgi (pid=56579): Failed to exec Python script file '/var/www/Mining_Product_Selector/app.wsgi'.
+[Fri Nov 19 22:34:10.322397 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.34.25:23428] mod_wsgi (pid=56579): Exception occurred processing WSGI script '/var/www/Mining_Product_Selector/app.wsgi'.
+[Fri Nov 19 22:34:10.322491 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.34.25:23428] Traceback (most recent call last):
+[Fri Nov 19 22:34:10.322520 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.34.25:23428]   File "/var/www/Mining_Product_Selector/app.wsgi", line 3, in <module>
+[Fri Nov 19 22:34:10.322525 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.34.25:23428]     from Mining_Product_Selector import app as application
+[Fri Nov 19 22:34:10.322544 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.34.25:23428]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/__init__.py", line 4, in <module>
+[Fri Nov 19 22:34:10.322549 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.34.25:23428]     from Mining_Product_Selector import routes
+[Fri Nov 19 22:34:10.322556 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.34.25:23428]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 7, in <module>
+[Fri Nov 19 22:34:10.322560 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.34.25:23428]     from google_auth_oauthlib.flow import InstalledAppFlow
+[Fri Nov 19 22:34:10.322575 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.34.25:23428] ModuleNotFoundError: No module named 'google_auth_oauthlib'
+[Fri Nov 19 22:36:08.755832 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.178.31:10308] mod_wsgi (pid=56579): Failed to exec Python script file '/var/www/Mining_Product_Selector/app.wsgi'.
+[Fri Nov 19 22:36:08.755884 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.178.31:10308] mod_wsgi (pid=56579): Exception occurred processing WSGI script '/var/www/Mining_Product_Selector/app.wsgi'.
+[Fri Nov 19 22:36:08.755995 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.178.31:10308] Traceback (most recent call last):
+[Fri Nov 19 22:36:08.756026 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.178.31:10308]   File "/var/www/Mining_Product_Selector/app.wsgi", line 3, in <module>
+[Fri Nov 19 22:36:08.756033 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.178.31:10308]     from Mining_Product_Selector import app as application
+[Fri Nov 19 22:36:08.756041 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.178.31:10308]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/__init__.py", line 4, in <module>
+[Fri Nov 19 22:36:08.756047 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.178.31:10308]     from Mining_Product_Selector import routes
+[Fri Nov 19 22:36:08.756054 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.178.31:10308]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 7, in <module>
+[Fri Nov 19 22:36:08.756059 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.178.31:10308]     from google_auth_oauthlib.flow import InstalledAppFlow
+[Fri Nov 19 22:36:08.756076 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.178.31:10308] ModuleNotFoundError: No module named 'google_auth_oauthlib'
+[Fri Nov 19 22:36:09.121724 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.178.239:10226] mod_wsgi (pid=56579): Failed to exec Python script file '/var/www/Mining_Product_Selector/app.wsgi'.
+[Fri Nov 19 22:36:09.121770 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.178.239:10226] mod_wsgi (pid=56579): Exception occurred processing WSGI script '/var/www/Mining_Product_Selector/app.wsgi'.
+[Fri Nov 19 22:36:09.121865 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.178.239:10226] Traceback (most recent call last):
+[Fri Nov 19 22:36:09.121918 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.178.239:10226]   File "/var/www/Mining_Product_Selector/app.wsgi", line 3, in <module>
+[Fri Nov 19 22:36:09.121924 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.178.239:10226]     from Mining_Product_Selector import app as application
+[Fri Nov 19 22:36:09.121933 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.178.239:10226]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/__init__.py", line 4, in <module>
+[Fri Nov 19 22:36:09.121940 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.178.239:10226]     from Mining_Product_Selector import routes
+[Fri Nov 19 22:36:09.121948 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.178.239:10226]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 7, in <module>
+[Fri Nov 19 22:36:09.121965 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.178.239:10226]     from google_auth_oauthlib.flow import InstalledAppFlow
+[Fri Nov 19 22:36:09.121984 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.178.239:10226] ModuleNotFoundError: No module named 'google_auth_oauthlib'
+[Fri Nov 19 22:36:09.367862 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 162.158.255.209:17396] mod_wsgi (pid=56579): Failed to exec Python script file '/var/www/Mining_Product_Selector/app.wsgi'.
+[Fri Nov 19 22:36:09.367904 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 162.158.255.209:17396] mod_wsgi (pid=56579): Exception occurred processing WSGI script '/var/www/Mining_Product_Selector/app.wsgi'.
+[Fri Nov 19 22:36:09.368011 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 162.158.255.209:17396] Traceback (most recent call last):
+[Fri Nov 19 22:36:09.368041 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 162.158.255.209:17396]   File "/var/www/Mining_Product_Selector/app.wsgi", line 3, in <module>
+[Fri Nov 19 22:36:09.368047 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 162.158.255.209:17396]     from Mining_Product_Selector import app as application
+[Fri Nov 19 22:36:09.368055 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 162.158.255.209:17396]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/__init__.py", line 4, in <module>
+[Fri Nov 19 22:36:09.368059 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 162.158.255.209:17396]     from Mining_Product_Selector import routes
+[Fri Nov 19 22:36:09.368066 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 162.158.255.209:17396]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 7, in <module>
+[Fri Nov 19 22:36:09.368070 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 162.158.255.209:17396]     from google_auth_oauthlib.flow import InstalledAppFlow
+[Fri Nov 19 22:36:09.368087 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 162.158.255.209:17396] ModuleNotFoundError: No module named 'google_auth_oauthlib'
+[Fri Nov 19 22:36:12.647453 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.178.31:15892] mod_wsgi (pid=56579): Failed to exec Python script file '/var/www/Mining_Product_Selector/app.wsgi'.
+[Fri Nov 19 22:36:12.647507 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.178.31:15892] mod_wsgi (pid=56579): Exception occurred processing WSGI script '/var/www/Mining_Product_Selector/app.wsgi'.
+[Fri Nov 19 22:36:12.647604 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.178.31:15892] Traceback (most recent call last):
+[Fri Nov 19 22:36:12.647634 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.178.31:15892]   File "/var/www/Mining_Product_Selector/app.wsgi", line 3, in <module>
+[Fri Nov 19 22:36:12.647640 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.178.31:15892]     from Mining_Product_Selector import app as application
+[Fri Nov 19 22:36:12.647648 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.178.31:15892]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/__init__.py", line 4, in <module>
+[Fri Nov 19 22:36:12.647652 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.178.31:15892]     from Mining_Product_Selector import routes
+[Fri Nov 19 22:36:12.647659 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.178.31:15892]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 7, in <module>
+[Fri Nov 19 22:36:12.647663 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.178.31:15892]     from google_auth_oauthlib.flow import InstalledAppFlow
+[Fri Nov 19 22:36:12.647680 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.178.31:15892] ModuleNotFoundError: No module named 'google_auth_oauthlib'
+[Fri Nov 19 22:36:12.853409 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.178.239:16050] mod_wsgi (pid=56579): Failed to exec Python script file '/var/www/Mining_Product_Selector/app.wsgi'.
+[Fri Nov 19 22:36:12.853446 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.178.239:16050] mod_wsgi (pid=56579): Exception occurred processing WSGI script '/var/www/Mining_Product_Selector/app.wsgi'.
+[Fri Nov 19 22:36:12.853536 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.178.239:16050] Traceback (most recent call last):
+[Fri Nov 19 22:36:12.853565 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.178.239:16050]   File "/var/www/Mining_Product_Selector/app.wsgi", line 3, in <module>
+[Fri Nov 19 22:36:12.853571 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.178.239:16050]     from Mining_Product_Selector import app as application
+[Fri Nov 19 22:36:12.853578 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.178.239:16050]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/__init__.py", line 4, in <module>
+[Fri Nov 19 22:36:12.853583 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.178.239:16050]     from Mining_Product_Selector import routes
+[Fri Nov 19 22:36:12.853590 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.178.239:16050]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 7, in <module>
+[Fri Nov 19 22:36:12.853594 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.178.239:16050]     from google_auth_oauthlib.flow import InstalledAppFlow
+[Fri Nov 19 22:36:12.853610 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.178.239:16050] ModuleNotFoundError: No module named 'google_auth_oauthlib'
+[Fri Nov 19 22:37:37.954878 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.34.73:9180] mod_wsgi (pid=56579): Failed to exec Python script file '/var/www/Mining_Product_Selector/app.wsgi'.
+[Fri Nov 19 22:37:37.954928 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.34.73:9180] mod_wsgi (pid=56579): Exception occurred processing WSGI script '/var/www/Mining_Product_Selector/app.wsgi'.
+[Fri Nov 19 22:37:37.955027 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.34.73:9180] Traceback (most recent call last):
+[Fri Nov 19 22:37:37.955058 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.34.73:9180]   File "/var/www/Mining_Product_Selector/app.wsgi", line 3, in <module>
+[Fri Nov 19 22:37:37.955064 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.34.73:9180]     from Mining_Product_Selector import app as application
+[Fri Nov 19 22:37:37.955072 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.34.73:9180]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/__init__.py", line 4, in <module>
+[Fri Nov 19 22:37:37.955077 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.34.73:9180]     from Mining_Product_Selector import routes
+[Fri Nov 19 22:37:37.955084 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.34.73:9180]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 7, in <module>
+[Fri Nov 19 22:37:37.955089 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.34.73:9180]     from google_auth_oauthlib.flow import InstalledAppFlow
+[Fri Nov 19 22:37:37.955106 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.34.73:9180] ModuleNotFoundError: No module named 'google_auth_oauthlib'
+[Fri Nov 19 22:37:38.143697 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.34.25:50278] mod_wsgi (pid=56579): Failed to exec Python script file '/var/www/Mining_Product_Selector/app.wsgi'.
+[Fri Nov 19 22:37:38.143750 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.34.25:50278] mod_wsgi (pid=56579): Exception occurred processing WSGI script '/var/www/Mining_Product_Selector/app.wsgi'.
+[Fri Nov 19 22:37:38.143847 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.34.25:50278] Traceback (most recent call last):
+[Fri Nov 19 22:37:38.143875 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.34.25:50278]   File "/var/www/Mining_Product_Selector/app.wsgi", line 3, in <module>
+[Fri Nov 19 22:37:38.143880 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.34.25:50278]     from Mining_Product_Selector import app as application
+[Fri Nov 19 22:37:38.143887 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.34.25:50278]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/__init__.py", line 4, in <module>
+[Fri Nov 19 22:37:38.143892 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.34.25:50278]     from Mining_Product_Selector import routes
+[Fri Nov 19 22:37:38.143898 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.34.25:50278]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 7, in <module>
+[Fri Nov 19 22:37:38.143902 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.34.25:50278]     from google_auth_oauthlib.flow import InstalledAppFlow
+[Fri Nov 19 22:37:38.143916 2021] [wsgi:error] [pid 56579:tid 139793333368576] [remote 172.70.34.25:50278] ModuleNotFoundError: No module named 'google_auth_oauthlib'
+[Fri Nov 19 22:37:38.249737 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.34.25:50486] mod_wsgi (pid=56579): Failed to exec Python script file '/var/www/Mining_Product_Selector/app.wsgi'.
+[Fri Nov 19 22:37:38.249785 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.34.25:50486] mod_wsgi (pid=56579): Exception occurred processing WSGI script '/var/www/Mining_Product_Selector/app.wsgi'.
+[Fri Nov 19 22:37:38.249861 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.34.25:50486] Traceback (most recent call last):
+[Fri Nov 19 22:37:38.249904 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.34.25:50486]   File "/var/www/Mining_Product_Selector/app.wsgi", line 3, in <module>
+[Fri Nov 19 22:37:38.249910 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.34.25:50486]     from Mining_Product_Selector import app as application
+[Fri Nov 19 22:37:38.249917 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.34.25:50486]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/__init__.py", line 4, in <module>
+[Fri Nov 19 22:37:38.249921 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.34.25:50486]     from Mining_Product_Selector import routes
+[Fri Nov 19 22:37:38.249928 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.34.25:50486]   File "/var/www/Mining_Product_Selector/Mining_Product_Selector/routes.py", line 7, in <module>
+[Fri Nov 19 22:37:38.249932 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.34.25:50486]     from google_auth_oauthlib.flow import InstalledAppFlow
+[Fri Nov 19 22:37:38.249946 2021] [wsgi:error] [pid 56579:tid 139793350153984] [remote 172.70.34.25:50486] ModuleNotFoundError: No module named 'google_auth_oauthlib'
