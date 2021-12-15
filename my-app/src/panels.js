@@ -22,9 +22,9 @@ const panels = [
     cost: 544.95,
     shopifyId: 28597116960843,
     image:
-      "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/AS02-253120_250px.png?v=1636063168",
+      "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/AS02-253120_3000x3000_d116163b-1cf1-428a-b5f9-b1177473663a.jpg?v=1639584605",
     specSheetUrl:
-      "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/20KW_240V_ASIC_Mining_Panel_Product_Sheet.pdf?v=1636412871",
+      "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/20KW_140V_ASIC_Mining_Panel_Product_Sheet.pdf?v=1639590852",
   },
   {
     name: "50KW_240V_ASIC_Mining_Panel",
@@ -47,9 +47,9 @@ const panels = [
     cost: 1894.95,
     shopifyId: 28597452505163,
     image:
-      "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/AS05-3532A0_250px.png?v=1636063394",
+      "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/AS05-3532A0_3000x3000_6b2a644a-6dca-4044-8016-3736e1807121.jpg?v=1639588203",
     specSheetUrl:
-      "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/50KW_240V_ASIC_Mining_Panel_Product_Sheet.pdf?v=1636412857",
+      "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/50KW_240V_ASIC_Mining_Panel_Product_Sheet_03135993-3b59-4184-af8e-c552f1d69088.pdf?v=1639591826",
   },
   {
     name: "50KW_480V_ASIC_Mining_Panel",
@@ -72,9 +72,9 @@ const panels = [
     cost: 4195.45,
     shopifyId: 28597459845195,
     image:
-      "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/50KW_Industrial_ASIC_Mining_Panel_40X240V_Output_Compressed.png?v=1613718491",
+      "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/AS05-5532A0_4000x4000_41a51692-df57-4938-a698-db8098977b35.jpg?v=1639588184",
     specSheetUrl:
-      "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/50KW_480V_ASIC_Mining_Panels_Product_Sheet.pdf?v=1636412845",
+      "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/50KW_480V_ASIC_Mining_Panels_Product_Sheet_e0b42d6c-fe8c-4cf6-8214-7df7a6677d4d.pdf?v=1639591845",
   },
   {
     name: "100KW_240V_ASIC_Mining_Panel",
