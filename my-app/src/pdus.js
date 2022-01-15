@@ -7,7 +7,7 @@ const pdus = [
     cost: 99.45,
     shopifyId: 39531795349579,
     specSheetUrl:
-      "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/30A_240V_PDU_4x_C13_Product_Sheet.pdf?v=1636144983",
+      "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/30A_240V_PDU_4x_C13_Product_Sheet_d62e1163-356b-47ed-a067-239f0d392392.pdf?v=1639590656",
     image:
       "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/PUL6-233040_250px.png?v=1636057887",
   },

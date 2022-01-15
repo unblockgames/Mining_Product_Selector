@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, Box, TextInput } from "grommet";
-import { PlugQty, PlugType } from "./Radio";
+import { PlugQty, PlugType } from "./radio";
 import Divider from "@material-ui/core/Divider";
 import { Select } from "grommet";
 import _ from "lodash";
