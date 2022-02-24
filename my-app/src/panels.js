@@ -19,7 +19,7 @@ const panels = [
         count: 3,
       },
     ],
-    cost: 544.95,
+    cost: 745,
     shopifyId: 28597116960843,
     image:
       "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/AS02-253120_3000x3000_d116163b-1cf1-428a-b5f9-b1177473663a.jpg?v=1639584605",
@@ -44,7 +44,7 @@ const panels = [
         count: 4,
       },
     ],
-    cost: 1045,
+    cost: 1195,
     shopifyId: 39614275977291,
     image:
       "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/AS02-253120_3000x3000_d116163b-1cf1-428a-b5f9-b1177473663a.jpg?v=1639584605",
@@ -69,7 +69,7 @@ const panels = [
         count: 7,
       },
     ],
-    cost: 1894.95,
+    cost: 1895,
     shopifyId: 28597452505163,
     image:
       "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/AS05-3532A0_3000x3000_6b2a644a-6dca-4044-8016-3736e1807121.jpg?v=1639588203",
@@ -94,7 +94,7 @@ const panels = [
         count: 7,
       },
     ],
-    cost: 4195.45,
+    cost: 4595,
     shopifyId: 28597459845195,
     image:
       "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/AS05-5532A0_4000x4000_41a51692-df57-4938-a698-db8098977b35.jpg?v=1639588184",
@@ -119,7 +119,7 @@ const panels = [
         count: 14,
       },
     ],
-    cost: 3444.95,
+    cost: 3695,
     shopifyId: 28597477343307,
     image:
       "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/AS10-353540_3000x3000_4ad28799-f6f1-4a0a-8315-ffcae5984d82.jpg?v=1639584555",
@@ -144,7 +144,7 @@ const panels = [
         count: 14,
       },
     ],
-    cost: 7795,
+    cost: 8195,
     shopifyId: 28597500903499,
     image:
       "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/AS10553540_4000x4000_32e75b73-384c-404a-a124-778217d88c28.jpg?v=1639584582",

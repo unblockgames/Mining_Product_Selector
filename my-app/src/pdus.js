@@ -4,7 +4,7 @@ const pdus = [
     displayName: "30A 240V PDU 4x C13",
     maxAmps: 30,
     plugQty: 4,
-    cost: 99.45,
+    cost: 104.95,
     shopifyId: 39531795349579,
     specSheetUrl:
       "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/30A_240V_PDU_4x_C13_Product_Sheet_d62e1163-356b-47ed-a067-239f0d392392.pdf?v=1639590656",
@@ -16,7 +16,7 @@ const pdus = [
     displayName: "30A 240V PDU 2x C19",
     maxAmps: 30,
     plugQty: 2,
-    cost: 99.45,
+    cost: 104.95,
     shopifyId: 39531799740491,
     specSheetUrl:
       "https://cdn.shopify.com/s/files/1/0246/7178/0939/files/30A_240V_PDU_2x_C19_Product_Sheet.pdf?v=1636197232",
