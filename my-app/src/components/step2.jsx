@@ -58,6 +58,9 @@ const Step2 = ({
             onClick={handleSubmit}
           />
         </Box>
+        <Box align="end" pad="medium">
+          <a href="https://asicminingpanels.com">Return to site</a>
+        </Box>
       </Box>
     </react.Fragment>
   );

@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Box, TextInput } from "grommet";
+import { Button, Box, TextInput, Text } from "grommet";
 import { PlugQty, PlugType } from "./radio";
 import Divider from "@material-ui/core/Divider";
 import { Select } from "grommet";
@@ -34,13 +34,9 @@ const Step1 = ({
           <PlugType value={plugType} onChange={(e) => handleChange(e)} />
         </Box>
         <Box direction="column" align="center" id="r1c2">
-          <Divider
-            orientation="verticle"
-          />
+          <Divider orientation="verticle" />
           <h1>OR</h1>
-          <Divider
-            orientation="verticle"
-          />
+          <Divider orientation="verticle" />
         </Box>
         <Box align="right" id="r1c3" width="250px">
           <h3>Choose from a list</h3>
@@ -61,6 +57,9 @@ const Step1 = ({
             label="Next"
             onClick={handleSubmit}
           />
+        </Box>
+        <Box align="end" pad="medium">
+          <a href="https://asicminingpanels.com">Return to site</a>
         </Box>
       </Box>
     </react.Fragment>

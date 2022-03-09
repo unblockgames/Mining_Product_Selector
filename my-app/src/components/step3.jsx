@@ -271,6 +271,9 @@ const Step3 = (props) => {
             </Card>
           ))}
         </Grid>
+        <Box align="end" pad="medium">
+          <a href="https://asicminingpanels.com">Return to site</a>
+        </Box>
       </Box>
     </react.Fragment>
   );
