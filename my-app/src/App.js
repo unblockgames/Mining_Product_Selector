@@ -7,10 +7,13 @@ import Calculator from "./components/calculator";
 const theme = {
   global: {
     font: {
-      family: "Roboto",
+      family: "muli",
       size: "18px",
       height: "20px",
     },
+    colors: {
+      brand:"#FF9C2A"
+    }
   },
 };
 
