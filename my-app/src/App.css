@@ -1,6 +1,9 @@
 body {
   background: linear-gradient(90deg, #29abe1, #999999);
 }
+iframe {
+  justify-content: center;
+}
 #calculator {
   background-color: white;
 }

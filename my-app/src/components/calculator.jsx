@@ -308,7 +308,7 @@ class Calculator extends React.Component {
         <Box
           id="calculator"
           width="1200px"
-          margin="100px"
+          margin="50px"
           round="20px"
           border={{
             color: "gray",
